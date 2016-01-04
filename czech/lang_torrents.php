@@ -1,0 +1,40 @@
+<?php
+$language['TORRENT_SEARCH']='Vyhledat torrenty';
+$language['TORRENT_STATUS']='Status';
+$language['CATEGORY_FULL']='Kategorie';
+$language['ALL']='Vše';
+$language['ACTIVE_ONLY']='Pouze aktivní';
+$language['DEAD_ONLY']='Pouze mrtvé';
+$language['SEARCH']='Hledej';
+$language['CATEGORY']='Kat.';
+$language['FILE']='Jméno';
+$language['COMMENT']='Kom.';
+$language['RATING']='Hodnocení';
+$language['DOWN']='Dl';
+$language['ADDED']='Datum';
+$language['SIZE']='Velikost';
+$language['UPLOADER']='Uploader';
+$language['SHORT_S']='S';
+$language['SHORT_L']='L';
+$language['SHORT_C']='C';
+$language['DOWNLOADED']='Down';
+$language['SPEED']='Rychlost';
+$language['AVERAGE']='Prům.';
+$language['VOTE']='Hlasuj!';
+$language['VOTES_RATING']='Hlasování (hodnocení)';
+$language['FIVE_STAR']='5 hvězd';
+$language['FOUR_STAR']='4 hvězd';
+$language['ONE_STAR']='1 hvězda';
+$language['THREE_STAR']='3 hvězdy';
+$language['TWO_STAR']='2 hvězdy';
+$language['YOU_RATE']='hodnotil jsi tento torrent jako';
+$language['ADD_RATING']='přidej hodnocení';
+$language['RATING']='Hodnocení';
+$language['ERR_NO_VOTE']='Musíte zvolit hodnotu volby.';
+$language['VOTES']='Hlasuj';
+$language['SHOW_HIDE']='Zobraz/Skryj soubory';
+$language["THANKS_BE_FIRST"]="Stáhni torrent a pak poděkuj!";
+$language["THANKS_USERS"]="Kdo poděkoval";
+$language["THANKS_YOU"]="Děkuji!";
+
+?>

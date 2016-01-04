@@ -1,0 +1,35 @@
+<?php
+$language['NOT_SHA']='SHA1 funkce není k dispozici. Potřebujete PHP 4.3.0 a lepší.';
+$language['NOT_AUTHORIZED_UPLOAD']='Nemáte povolení uploadovat!';
+$language['FILE_UPLOAD_ERROR_1']='Nemonu přečíst uploadovaný soubor';
+$language['FILE_UPLOAD_ERROR_3']='Soubor má nulovou velikost';
+$language['FACOLTATIVE']='Nabídka';
+$language['FILE_UPLOAD_ERROR_2']='Error: upload soboru selhal';
+$language['ERR_PARSER']='Zdá se že máte chybu ve vašem torrentu. Kontrolní systém jej neakceptuje.';
+$language['WRITE_CATEGORY']='Musíte určit kategorii torrentu...';
+$language['DOWNLOAD']='Download';
+$language['MSG_UP_SUCCESS']='Upload proběhl v pořádku! Torrent byl přidán.';
+$language['MSG_DOWNLOAD_PID']='PID system je aktivní a dal vašemu torrentu vaší PID';
+$language['EMPTY_DESCRIPTION']='Musíte vložit popis torrentu!';
+$language['EMPTY_ANNOUNCE']='Announce je prázná';
+$language['FILE_UPLOAD_ERROR_1']='Nemonu přečíst uploadovaný soubor';
+$language['FILE_UPLOAD_ERROR_2']='Error: upload soboru selhal';
+$language['FILE_UPLOAD_ERROR_3']='Soubor má nulovou velikost';
+$language['NO_SHA_NO_UP']='Nahrávání souborů není k dispozici - chybí SHA1 funkce.';
+$language['NOT_SHA']='SHA1 funkce není k dispozici. Potřebujete PHP 4.3.0 a lepší.';
+$language['ERR_PARSER']='Zdá se že máte chybu ve vašem torrentu. Kontrolní systém jej neakceptuje.';
+$language['WRITE_CATEGORY']='Musíte určit kategorii torrentu...';
+$language['ERR_HASH']='Info hash MUSÍ mít přesně 40 hex bytů.';
+$language['ERR_EXTERNAL_NOT_ALLOWED']='Externí torrenty nejsou povolené';
+$language['ERR_MOVING_TORR']=' Error přesun torrentu...';
+$language['ERR_ALREADY_EXIST']='Tento torrent již existuje v naší databázi.';
+$language['MSG_DOWNLOAD_PID']='PID system je aktivní a dal vašemu torrentu vaší PID';
+$language['MSG_UP_SUCCESS']='Upload proběhl v pořádku! Torrent byl přidán.';
+$language["FILE_UPLOAD_TO_BIG"]="Velikost souboru je příliš velká pro upload!! Limit";
+$language["IMAGE_WAS"]="Velikost obrázku Image size";
+$language["MOVE_IMAGE_TO"]="Nemohu přenést obrázek do";
+$language["CHECK_FOLDERS_PERM"]="Prosím zkontrolujte přístupnost složky a zkuste to znovu.";
+$language["ILEGAL_UPLOAD"]="Nepovolený upload!! Toto není obrázek<br>Prosím dejte Zpět a zkuste to znovu";
+$language["IMAGE"]="Obrázek";
+$language["SCREEN"]="Screenshoty";
+?>

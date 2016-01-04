@@ -1,0 +1,51 @@
+<?php
+//AJAX Poll System Hack Start - 5:03 PM 3/24/2007
+$language['POLL_ID']='ID';
+$language['LATEST_POLL']='Nejposlednější Anketa';
+$language['CAST_VOTE']='Cast my vote';
+$language['FETCHING_RESULTS']='Shromažďuji výsledky ankety. Prosím čekejte...';
+$language['POLL_TITLE']='Název ankety';
+$language['POLL_TITLE_MISSING']='Chybí Název ankety';
+$language['POLLING_SYSTEM']='AJAX Anketní System';
+$language['CURRENT_POLLS']=' Aktuální ankety';
+$language['POLL_STARTED']='Spuštěná';
+$language['POLL_ENDED']='Ukončená';
+$language['POLL_LASTED']='Trval';
+$language['POLL_BY']='Spustil';
+$language['POLL_VOTES']='Hlas';
+$language['POLL_STILL_ACTIVE']='Stále aktivní';
+$language['POLL_NEW']='New';
+$language['POLL_START_NEW']='Spustit novou anketu';
+$language['POLL_ACTIVE']='Aktivní';
+$language['POLL_ACTIVE_TRUE']='Aktivní';
+$language['POLL_ACTIVE_FALSE']='Neaktivní';
+$language['POLL_OPTION']='Možnosti';
+$language['POLL_OPTIONS']='Možnosti';
+$language['POLL_MOVE']='Posunout dol§';
+$language['POLL_NEW_OPTIONS']='Nové možnosti';
+$language['POLL_SAVE']='Uložit';
+$language['POLL_CANCEL']='Zrušit';
+$language['POLL_DELETE']='Smazat';
+$language['POLL_DEL_CONFIRM']='Klikněte na OK pro smazání této ankety';                          
+$language['POLL_VOTERS']='Hlasucí ankety';
+$language['POLL_IP_ADDRESS']='IP Adresa';
+$language['POLL_DATE']='Datum';
+$language['POLL_USER']='Uživatel';
+$language['POLL_ACCOUNT_DEL']='<i>účet smazán</i>';
+$language['POLL_BACK']='Zpět';
+$language['YEAR']='rok';
+$language['MONTH']='měsíc';
+$language['WEEK']='týden';
+$language['DAY']='den';
+$language['HOUR']='hodina';
+$language['MINUTE']='minut';
+$language['SECOND']='sekud';
+$language['YEARS']='let';
+$language['MONTHS']='měsíců';
+$language['WEEKS']='týdnů';
+$language['DAYS']='dnů';
+$language['HOURS']='hodin';
+$language['MINUTES']='minut';
+$language['SECONDS']='sekund';
+//AJAX Poll System Hack Stop
+?>
