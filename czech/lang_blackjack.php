@@ -1,6 +1,6 @@
 <?php
 
-$language["BLACKJACK"] = "Blackjack";
+$language["BLACKJACK"] = "BlackjackTEST";
 $language["BJ_WELCOME_1"] = "<p><font color='#FFFFFF'>The object is to get a hand with a value as close to 21 as possible without going bust. You will be playing against the dealer so you must beat their hand in order to win.</font>";
 $language["BJ_WELCOME_2"] = "<font color='yellow'><b> Each game costs ".makesize($btit_settings["bj_blackjack_stake"])." of upload credit to play.</p></b></font><font size=2 color='#FFFFFF'><li><b>Blackjack pays ".makesize(($btit_settings["bj_blackjack_stake"]*$btit_settings["bj_blackjack_prize"])+$btit_settings["bj_blackjack_stake"])."</li><li>Beating the dealer pays ".makesize(($btit_settings["bj_blackjack_stake"]*$btit_settings["bj_normal_prize"])+$btit_settings["bj_blackjack_stake"])."</li><li>Push (a draw) returns your original stake.</li><li>Losing returns nothing.</li></font>";
 $language["CONTINUE"] = "Continue";

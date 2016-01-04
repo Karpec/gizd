@@ -1,18 +1,18 @@
 <?php
 
-$language['gallery']='Gallery';
-$language['gallery1']='Gallery button allows you to navigate to the gallery page no matter where you are at.';
-$language['gallery2']='Upload';
-$language['gallery3']='This page allows you to upload pictures you would like to use on the site.  When uploading a picture to this server, you need to make sure the file name is not used in a wrongful manner.  Any files uploaded like this will be deleted in this manner.';
-$language['gallery4']='Back';
-$language['gallery5']='Back button will allow you to go back to the previous page you were on before you left.';
-$language['gallery6']='Reload';
-$language['gallery7']='Reload is the same thing as refresh.  If you need to refresh the page click this button without having to close it out and reopen it.';
-$language['gallery8']='ReadMe';
-$language['gallery9']='ReadMe takes you to this tutorial on how to use the gallery popup page and what everything does.';
-$language['gallery10']='Close';
-$language['gallery11']='Close Window button will close the gallery page no matter where you are at.';
-$language['gallery12']='Upload Another File';
+$language['gallery']='Galerie';
+$language['gallery1']='Tlačítko Galerie vám umožňuje přejít na stránku galerie, bez ohledu na to, kde jste.';
+$language['gallery2']='Nahrát';
+$language['gallery3']='Tlačítko Nahrát vám umožní nahrát obrázky, které chcete použít na webu. Při nahrávání obrázku na tento server, se musíte ujistit, že název souboru se nepoužívá v nesprávném tvaru. Všechny soubory nahrané takhle budou vymazány.';
+$language['gallery4']='Zpět';
+$language['gallery5']='Tlačítko Zpět vám umožní přejít zpět na předchozí stránku, kde jste byli dříve, než jste odešli.';
+$language['gallery6']='Znovu';
+$language['gallery7']='Znovu je totéž jako obnovení. Pokud potřebujete aktualizovat stránku klikněte na toto tlačítko, aniž byste ji museli zavřít a znovu otevřit. ';
+$language['gallery8']='Nápověda';
+$language['gallery9']='Tlačítkem Nápověda se dostanete do tohoto tutoriálu o tom, jak používat galerii stránky a co všechno dělá.';
+$language['gallery10']='Zavřít';
+$language['gallery11']='Tlačítko Zavřít zavře galerii.';
+$language['gallery12']='Nahrát další soubor';
 $language['gallery13']='Take Me To The Gallery';
 $language['gallery14']='<font color="#ffffff">Picture Preview</font>';
 $language['gallery15']='<font color="#ffffff"><b>Picture Gallery Upload<br>Please read the ReadMe to Understand How The Gallery Works</font>';
