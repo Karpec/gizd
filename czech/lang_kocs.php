@@ -1,25 +1,25 @@
 <?php
 # Tabs
-$language['KOCS_TAB_BACKUP']='Backup';
-$language['KOCS_TAB_RESTORE']='Restore';
+$language['KOCS_TAB_BACKUP']='Záloha';
+$language['KOCS_TAB_RESTORE']='Obnova';
 $language['KOCS_TAB_CONFIG']='Config';
 # Templates
-$language['KOCS_PASS_NEW']='New Password';
-$language['KOCS_PASS_NEW_CONF']='Confirm New Password';
-$language['KOCS_PASS_CH']='Change Khez Tools Password';
-$language['KOCS_PASS']='Password';
-$language['KOCS_PASS_MATCH']='Passwords do not match.';
-$language['KOCS_INP_PASS']='Input KOCS Tools Password (default = btiteamkhez)';
+$language['KOCS_PASS_NEW']='Nové heslo';
+$language['KOCS_PASS_NEW_CONF']='Potvrďte nové heslo';
+$language['KOCS_PASS_CH']='Změnte heslo';
+$language['KOCS_PASS']='Heslo';
+$language['KOCS_PASS_MATCH']='Heslo se neshoduje';
+$language['KOCS_INP_PASS']='Vložte heslo (defaultně = btiteamkhez)';
 $language['KOCS_DOKEY']='Do Key Check';
-$language['KOCS_PREFIX']='Table Prefix';
-$language['KOCS_PREFIX_NOTE']='(use | to separate)';
-$language['KOCS_BAK']='Backup Options';
-$language['KOCS_BAK_TYPE']='Backup Type';
-$language['KOCS_BAK_DATA']='Data Only';
-$language['KOCS_BAK_STRUCT']='Structure Only';
-$language['KOCS_BAK_BOTH']='Structure&amp;Data';
-$language['KOCS_BAK_COM']='Comment Backup (Larger File)';
-$language['KOCS_PAK']='Compression Method';
+$language['KOCS_PREFIX']='Prefix tabulek';
+$language['KOCS_PREFIX_NOTE']='(použijte | k oddělení)';
+$language['KOCS_BAK']='Nastavení zálohy';
+$language['KOCS_BAK_TYPE']='Typ zálohy';
+$language['KOCS_BAK_DATA']='Pouze data';
+$language['KOCS_BAK_STRUCT']='Pouze struktůru';
+$language['KOCS_BAK_BOTH']='Struktůru a data';
+$language['KOCS_BAK_COM']='Záloha komentářu (Větší soubory)';
+$language['KOCS_PAK']='Metoda komprese';
 $language['KOCS_PAK_TEXT']='TEXT';
 $language['KOCS_PAK_ZIP']='ZIP';
 $language['KOCS_PAK_BZIP']='BZIP';

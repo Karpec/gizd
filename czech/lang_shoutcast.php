@@ -1,8 +1,8 @@
 <?php
 
  $language['pages']='manage,edit,approve,kick,deny,list,request';
- $language['days']='Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday';
- $language['bedj']='Become DJ';
+ $language['days']='Pondělí, Uterý, Středa, Čtvrtek, Pátek, Sobota, Nedele';
+ $language['bedj']='Staň se DJem';
  $language['djhead']='Shoutcast DJ';
  $language['f1']='Please select days that you want to be a DJ on Shoutcast:';
  $language['f2']='Between:';

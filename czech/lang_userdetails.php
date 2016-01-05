@@ -4,7 +4,7 @@
 
 $language['USERNAME']           = 'Uživatelské jméno';
 $language['EMAIL']              = 'Email';
-$language['LAST_IP']            = 'Poslední Ip';
+$language['LAST_IP']            = 'Poslední IP';
 $language['USER_LEVEL']         = 'Hodnost';
 $language['USER_JOINED']        = 'Registrovaný';
 $language['USER_LASTACCESS']    = 'Poslední přístup';

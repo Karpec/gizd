@@ -1,19 +1,19 @@
 <?php
-$language['TEAM_HEADER']='<b><u>Here you can Add, Edit and Delete Teams</u>!</b><br><br>';
-$language['TEAM_ADD']='<b>Add new team</b>';
-$language['TEAM_EDIT']='<b>Edit Team</b>';
+$language['TEAM_HEADER']='<b><u>Zdě můžete přidat, upravit a smazat team</u>!</b><br><br>';
+$language['TEAM_ADD']='<b>Přidat nový team</b>';
+$language['TEAM_EDIT']='<b>Upravit team</b>';
 $language['TEAM_CURR']='<b>Current Teams</b>';
 $language['TEAM_ONE']='<br>(<b>1</b> Owner per each Team)';
-$language['TEAM_NAME']='Team Name:';
-$language['TEAM_LOGO']='Team Logo URL:';
-$language['TEAM_OWNER']='Owner Name:';
-$language['TEAM_DESC']='Description:';
+$language['TEAM_NAME']='Jméno teamu:';
+$language['TEAM_LOGO']='Logo teamu URL:';
+$language['TEAM_OWNER']='Jméno vlastníka:';
+$language['TEAM_DESC']='Popis:';
 $language['TEAM_ID_H']='ID';
-$language['TEAM_NAME_H']='Team Name';
-$language['TEAM_LOGO_H']='Team Logo';
-$language['TEAM_OWNER_H']='Owner Name';
-$language['TEAM_DESC_H']='Description';
-$language['TEAM_EDIT_H']='Edit/Del';
-$language['TEAM_HEAD_H']='Team settings';
-$language['TEAM_HEAD_U']='Team Users';
+$language['TEAM_NAME_H']='Jméno teamu';
+$language['TEAM_LOGO_H']='Logo teamu';
+$language['TEAM_OWNER_H']='Jméno vlastníka';
+$language['TEAM_DESC_H']='Popis';
+$language['TEAM_EDIT_H']='Upravi/Smazat';
+$language['TEAM_HEAD_H']='Nastavení teamu';
+$language['TEAM_HEAD_U']='Uživatel teamu';
 ?>

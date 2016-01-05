@@ -687,7 +687,7 @@ $language['DELETE_IGNORE']='Zrušit ignoraci';
 // hack: MAC Address Tools - Works with Java 6+ supported browsers
 // operation #0
 // Begin: Ban by MAC Address Hack
-$language['LAST_MAC']='Last MAC Address(es):';
+$language['LAST_MAC']='Poslední MAC adresa/y:';
 // End: Ban by MAC Address Hack 
 
 
@@ -699,8 +699,8 @@ $language['LAST_MAC']='Last MAC Address(es):';
 // hack: Detect & Blacklist Proxy
 // operation #0
 
-$language['CHANGE_CONFIRM']='Are you sure you want to change this users download rights?';
-$language['CHANGED']='Change';
+$language['CHANGE_CONFIRM']='Opravdu chcete změnit tahle uživatelská práva pro stahování?';
+$language['CHANGED']='Změnit';
 
 // end modification
 // hack: Detect & Blacklist Proxy
