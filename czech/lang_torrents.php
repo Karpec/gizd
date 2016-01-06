@@ -33,8 +33,9 @@ $language['RATING']='Hodnocení';
 $language['ERR_NO_VOTE']='Musíte zvolit hodnotu volby.';
 $language['VOTES']='Hlasuj';
 $language['SHOW_HIDE']='Zobraz/Skryj soubory';
+$language['SEND_POINTS']='Send Points';
 $language["THANKS_BE_FIRST"]="Stáhni torrent a pak poděkuj!";
 $language["THANKS_USERS"]="Kdo poděkoval";
 $language["THANKS_YOU"]="Děkuji!";
-
+$language["LANGUAGE"]="Language";
 ?>

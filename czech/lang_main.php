@@ -1,5 +1,19 @@
 <?php
 global $users, $torrents, $seeds, $leechers, $percent;
+$language["ACP_ADD_WARN"]="Torrent moderation resaons";
+$language["WARN_TITLE"]="Title of reason";
+$language["WARN_TEXT"]="Explain reason";
+$language["WARN_ADD_REASON"]="Add new reason";
+$language["TRUSTED"]="Trusted";
+$language["TRUSTED_MODERATION"]="Trusted moderation";
+$language["TORRENT_STATUS"]="Torrent status";
+$language["TORRENT_MODERATION"]="Moderation";
+$language["MODERATE_TORRENT"] = "Moderate";
+$language["MODERATE_STATUS_OK"] = "Ok";
+$language["MODERATE_STATUS_BAD"] = "Bad";
+$language["MODERATE_STATUS_UN"] = "Unmoderated";
+$language["FRM_CONFIRM_VALIDATE"] = "Confirm revalidation";
+$language["MODERATE_PANEL"] = "Mod Torrent Panel";
 // $language['rtl']='rtl'; // if your language is  right to left then uncomment this line
 // $language['charset']='UTF-8'; // uncomment this line with specific language charset if different than tracker's one
 $language['ACCOUNT_CONFIRM']='Ověřovací Email ze sítě '.$SITENAME.'.';
@@ -95,6 +109,7 @@ $language['ERR_BAD_NEWS_ID']='Špatné ID novinek!';
 $language['ERR_BODY_EMPTY']='Body nemůže být prázdné!';
 $language['ERR_CANT_CONNECT']='Nemohu se připojit k lokálnímu MySQL server';
 $language['ERR_CANT_OPEN_DB']='Nemohu otevřit databázi';
+$language['ERR_COMMENT_EMPTY']='Comment cannot be empty!';
 $language['ERR_DB_ERR']='Databáze error. Prosím kontaktujte Administrátora s tímto problémem.';
 $language['ERR_DELETE_POST']='Smazat příspěvek. Sanity check: You are about to delete a post. Click';
 $language['ERR_DELETE_TOPIC']='Smazat topic. Sanity check: You are about to delete a topic. Click';
@@ -125,7 +140,19 @@ $language['ERR_NO_TOPIC_POST_ID']='Žádný topic není přiřazený ID přísp�
 $language['ERR_NOT_AUTH']='Nemáte oprávnění!';
 $language['ERR_NOT_FOUND']='Nenalezeno...';
 $language['ERR_NOT_PERMITED']='Zakázáno';
-$language['ERR_PASS_LENGTH']='<font color="black">Vaše heslo musí mít minimálně 4 znaky.</font>';
+$language['ERR_PASS_LENGTH_1']='Your password must be a minimum of';
+$language['ERR_PASS_LENGTH_2']='characters in length.';
+$language["ERR_PASS_TOO_WEAK_1"]="Your password is too weak.<br />For security reasons it must contain at least";
+$language["ERR_PASS_TOO_WEAK_1A"]="The password is too weak.<br />For security reasons it must contain at least";
+$language["ERR_PASS_TOO_WEAK_2"]="lower case letter";
+$language["ERR_PASS_TOO_WEAK_2A"]="lower case letters";
+$language["ERR_PASS_TOO_WEAK_3"]="upper case letter";
+$language["ERR_PASS_TOO_WEAK_3A"]="upper case letters";
+$language["ERR_PASS_TOO_WEAK_4"]="number";
+$language["ERR_PASS_TOO_WEAK_4A"]="numbers";
+$language["ERR_PASS_TOO_WEAK_5"]="symbol";
+$language["ERR_PASS_TOO_WEAK_5A"]="symbols";
+$language["ERR_PASS_TOO_WEAK_6"]="Here is a strong password you may want to use";
 $language['ERR_PASSWORD_INCORRECT']='Nesprávné heslo';
 $language['ERR_PERM_DENIED']='Povolení odepřeno';
 $language['ERR_PID_NOT_FOUND']='Prosím stáhněte znova torrent soubory. PID systém je aktivnít a pid nebylo nalezeno v torrentu.';
@@ -431,6 +458,88 @@ $language['FIRST_UNREAD']='Přejdi na první nepřečtenou zprávu  Goto the fir
 $language['MODULE_UNACTIVE']='Požadovaný Modul není aktivní  The module required is not active!';
 $language['MODULE_NOT_PRESENT']='Požadovaný Modul neexistuje!';
 $language['MODULE_LOAD_ERROR']='Požadovaný Modul se zdá být chybný!';
+$language['ADDTHIS_SHARE']='Share';
+$language['ADDTHIS_SHARE2']='Share with friends';
+$language["PLAYED"]="Played";
+$language["WINS"]="Wins";
+$language["LOSSES"]="Losses";
+$language["DRAWS"]="Draws";
+$language["WON_WITH_BLACKJACK"]="Won with Blackjack";
+$language["WIN_LOSS_TOTAL"]="Win/Loss Total";
+$language["WIN_PERCENTAGE"]="Win Percentage";
+
+$language['RESET_PID'] = 'Reset PID';
+
+##**** Language definitions added by TreetopClimber © 2007 - 2014. PLEASE DO NOT MOVE MY INSERTS!! *****##
+$language['EXTRA']='extra';
+$language['DROPDOWN']='dropdown';
+$language['DOCK']='dock'; # New for diemthuys dock menu
+$language['TORRENT_MENU']='Torrent Menu';
+$language['USER_MENU']='User Menu';
+$language['USER_LINKS']='User Links'; # New User Link, for all those other links.
+$language['ADMIN_MENU']='DTFM Admin'; # New DTFM Admin Menu Link
+$language['ADMIN_MAIN']='DTFM News - ACP'; # CHANGED FROM ADMIN_ACCESS TO ADMIN_MAIN BY TREETOPCLIMBER .... Mainly used for version and xbtit dt fm news
+$language['MNU_ADMINCP']='Main Settings'; # CHANGED FROM Admin Panel TO Main Settings BY TREETOPCLIMBER 
+$language['STAFF_ACCESS']='Staff Access';
+$language["STAFF"]="Staff";
+$language['UPLOAD_LINK']='Torrent Upload';
+$language['ADAREA']='ads';
+$language['BLACKJACK']='BlackJack'; # Added by TreetopClimber for menu link
+$language['TORRENT_TODAY']='Todays Torrents'; # Added by TreetopClimber for menu link
+$language['REPORTS']='Reports'; # Added by TreetopClimber for menu link
+$language["TEAMS"]="Teams"; # Aadded by TreetopClimber for menu link
+$language["DONATIONS"]="Donations"; # Added by TreetopClimber for menu link
+$language["HELPDESK"]="Helpdesk"; # Added by TreetopClimber For menu link.
+$language['XPCTD_2_OFFER']='Expected To Offer'; # Added by TreetopClimber For menu link.
+# End
+
+$language["USERNAME"]="Username";
+$language["SUBMIT"]="Submit";
+
+$language["QUAR_PM_SUBJ"]="Suspected Hacking Attempt";
+$language["QUAR_PM_MSG_1"]="tried to upload a file containing php code. This file was quarantined";
+$language["QUAR_PM_MSG_2"]="It is however possible this is a false negative so please check this file with a hex editor or something before banning this user."."\n\n"."This attempt was made via";
+$language["QUAR_OUTPUT"]="Your attempt to upload a file containing php code has been thwarted and you have been reported to the site Owner!";
+$language["QUAR_ERR"]="Quarantine Error";
+$language["QUAR_DIR_PROBLEM_1"]="Quarantine Directory";
+$language["QUAR_DIR_PROBLEM_2"]="does not exist, please set a valid Quarantine Directory in [b]Admin Panel-->Security Suite Settings[/b]";
+$language["QUAR_DIR_PROBLEM_3"]="is not writable, please CHMOD to 0777";
+$language["QUAR_UNABLE"]="Unable to quarantine file due to unforseen error, please check your other PM's for details of how to resolve this issue";
+$language["QUAR_NOT_SET"]="Directory not set";
+$language["QUAR_TMP_FILE_MISS"]="Can't find the temp file!";
+
+$language["SECSUI_ACC_PWD_1"]="Your password needs:";
+$language["SECSUI_ACC_PWD_1A"]="The password needs:";
+$language["SECSUI_ACC_PWD_2"]="To be at least";
+$language["SECSUI_ACC_PWD_3"]="character in length";
+$language["SECSUI_ACC_PWD_3A"]="characters in length";
+$language["SECSUI_ACC_PWD_4"]="To have at least";
+$language["SECSUI_ACC_PWD_5"]="lower case letter";
+$language["SECSUI_ACC_PWD_5A"]="lower case letters";
+$language["SECSUI_ACC_PWD_6"]="upper case letter";
+$language["SECSUI_ACC_PWD_6A"]="upper case letters";
+$language["SECSUI_ACC_PWD_7"]="number";
+$language["SECSUI_ACC_PWD_7A"]="numbers";
+$language["SECSUI_ACC_PWD_8"]="symbol";
+$language["SECSUI_ACC_PWD_8A"]="symbols";
+
+$language["LOGS_PHP"]="PHP Error Log";
+$language["LOGS_LINE_AMT"]="<b>Line amount:</b>";
+$language["LOGS_LINE_AMT_1"]="<b>How many lines to show of the log</b>";
+$language["LOGS_COOLY_NAME"]="<b>Log Name:</b>&nbsp;The name you wish to call your logs. Think of something authentic.";
+$language["LOGS_COOLY_NAMES"]="This will be the same name for each log apart from the date stamp.";
+$language["LOGS_COOLY_PATH"]="<b>Log Path:</b>&nbsp;Above doc root would be a good choice \"if possible\" no forward slash<br /> and folder must be writable.If you have an open basedir restriction you are best to keep the current path.";
+$language["LOGS_COOLY_PATHS"]="Recommended:";
+$language["LOGS_COOLY_NOTE"]="<b>If u change path to another doc root dir be sure to copy the .htaccess to the new dir.</b>";
+$language["LOGS_COOLY_LIST"]="The list of old logs in your folder.";
+$language["LOGS_COOLY_FLUSH"]="Flush out</a> old logs";
+
+
+
+$language["DOB"]="Date of Birth";
+$language["STICKY_TORRENT"]="<b>Sticky</b>";
+$language["STICKY_TORRENT_EXPLAIN"]="(Always on top of the torrent list)";
+
 $language["BONUS_INFO1"]="Ahoj tady můžeš vyměnit své body za seed (Tvůj stav ";
 $language["BONUS_INFO2"]="(Pokud jsou tlačítka neaktivní, tak nemáš dostatek bodů ke směně!)";
 $language["BONUS_INFO3"]="Jak můžu získat více bodů?<br>Za každou hodinu tvého seedu dostaneš ";
@@ -444,13 +553,65 @@ $language["NO_CUSTOM_TITLE"]="žádný nemáš";
 $language["UP_TO_VIP"]="Povýšit na hodnost VIP";
 $language["NEED_MORE_POINTS"]="[Potřebuješ více bodů]";
 $language["CHANGE_USERNAME"]="Změna nicku (Cena - ";
+
+$language['RF']='Request Filled';
+$language['VR']='Requests';
+$language['R']='Add Request';
+$language['VV']='View Votes';
+$language['RD']='Request Details';
+$language['RE']='Edit Request';
+      
+$language['most_online']='Top Online Time ';
+
+$language["DONATE"]="Make a Donation";
+
+$language['DON_HISTORIE']='This Members Keep This Site Alive , Thank You Guys';
+
+# Friends DT
+$language["FRIENDLIST"]="Friendlist";
+$language["UNFRIEND"]="Are you shure you want to unfriend this user ?";
+$language["REFRIEND"]="Are you shure you want to be friends with this user ?";
+$language["REJECT"]="Are you shure you want to reject this users friendship ?";
+$language["FPENDING"]="Pending Requests";
+$language["FFRIEND"]="Friend Requests";
+$language["FAVATAR"]="Avatar";
+$language["FUN"]="User Name";
+$language["FUL"]="User Level";
+$language["FRD"]="Request Date";
+$language["FFD"]="Friend Date";
+$language["FFF"]="Friend From";
+$language["FRDD"]="Reject Date";
+$language["FRU"]="Reject User";
+$language["FCONF"]="Confirmed Friends";
+$language["FREJ"]="Rejected Users";
+$language["FRR"]="Remove Request";
+$language["FSTAT"]="Status";
+$language["FRE"]="Re-Friend";
+$language["FUF"]="Un-Friend";
+$language["FATF"]="Add To Friends";
+$language["FMF"]="Mutual Friend";
+$language['MNU_FLUSH']='Flush Your Ghost Torrents';$language['MT']='Max Active Torrents';
+$language["CUSTOM_TITLE"]="Custom title";
+$language["FILE_UPLOAD_TO_BIG"]="File size to big for upload!! Limit";
+$language["IMAGE_WAS"]="Image size";
+$language["MOVE_IMAGE_TO"]="Could not move image to";
+$language["CHECK_FOLDERS_PERM"]="Please check the folder permissons and try again.";
+$language["ILEGAL_UPLOAD"]="Ilegal upload!! This is not a image<br>Please press back and try again";
+$language["IMAGE"]="Image";
+$language["SCREEN"]="Screenshots";
+$language["STAFF"]="Staff";
+$language["BOOKMARK"]="Your Favourites";
+$language["ADDB"]="BM";
 $language["IMDB"]="Filmy: IMDb URL:";
+//RULES
 $language["RULES_SORT"]="Třídit pravidla";
 $language["RULES"]="Pravidla";
 $language["RULE"]="Pravidlo";
 $language["RULE_ALL"]="Všechny pravidla";
 $language["MNU_RULES"]="Pravidla";
 $language["RULES_ADD"]="Nové pravidlo";
+
+//FAQ
 $language["MNU_FAQ"]="Nápověda";
 $language["FAQ_NAME"]="Jméno skupiny";
 $language["FAQ_TEXT"]="Popis skupiny";
@@ -460,6 +621,44 @@ $language["FAQ_QUESTION"]="Otázka";
 $language["FAQ_ANSWER"]="Odpověď";
 $language["FAQ_QUESTION_ADD"]="Vložit Otázku/Odpověď";
 $language["FAQ_QUESTION_SEARCH_ALL"]="Najít vše...";
+
+
+$language['GRABBED']='Your Grabbed Torrents';
+$language['details_similar_torrents'] = "Similar torrents";
+$language['details_name'] = "Name";
+$language['details_seeders'] = "Seeders";
+$language['details_leechers'] = "Leechers";
+$language['details_size'] = "Size";
+$language['details_date'] = "Added";
+      
+$language['SB']='Seed Bonus Control';
+
+$language['REPS']='Admin Section Reported Users & Torrents';
+$language['REP_BY'] = 'Reported By';
+$language['REP_REPORTING'] = 'Reporting';
+$language['REP_TYPE'] = 'Type';
+$language['REP_REASON'] = 'Reason';
+$language['REP_DEALT_WITH'] = 'Dealt With';
+$language['REP_MARK'] = 'Mark As Dealt With';
+      
+$language['TORRENT_OPTIONS']='Search in';
+$language['FIL']='Filename';
+$language['FILDES']='File & Description';
+$language['DES']='Description';
+      
+$language["DOB"]="Date of Birth";
+$language["DOB_FORMAT"]="<b>Day (DD) / Month (MM) / Year (YYYY)</b>";
+$language["USER_AGE"]="Age";
+$language["HB_SUBJECT"]="Happy Birthday";
+$language["HB_MESSAGE_1"]=":hbd:\n\nYour account has been credited with ";
+$language["HB_MESSAGE_2"]=" of upload credit. (";
+$language["HB_MESSAGE_3"]=" GB for every year of your life). The staff of $SITENAME wish you all the best for the future.\n\n:yay:";
+$language["ERR_BORN_IN_FUTURE"]="Time Traveller huh? You can't be born in the future!";
+$language["ERR_DOB_1"]="I don't believe you are ";
+$language["ERR_DOB_2"]=" years old.";
+$language["INVALID_DOB_1"]="Entered date of birth (";
+$language["INVALID_DOB_2"]=") is invalid";
+
 $language["NOT_USER_CLASS"]="<h2>Sorry</h2><p>Musíte být registrování pro nákup tiketu.</p>";
 $language["CANNOT_SELL_CLOSED"]="Sorry]= Nemůžu prodat žádné tikety! Loterie je uzavřena!";
 $language["LOTTERY"]="LOTERIE";
@@ -467,9 +666,310 @@ $language["LOTT_LIMIT_PURCHASE"]="Maximální množství lístků  které může
 $language["LOTT_LIMIT_BUY"]="Maximální množství tiketků které si můžete koupit je";
 $language["LOTTERY_PM_SUBJECT"]="Vyhrál jsi cenu v loterii";
 $language["LOTTERY_PM_MESSAGE"]="Gragulujeme !!! vyhrál jsi cenu v naší Loterii. Tvoje výhra byla přidána na tvůj účet.";
+$language['REPUTATIONPAGE']='Reputation';
+$language['REPUTATION']='Reputation System';
+
 $language["INVITE_CODE"]="Kód pozvánky";
 $language["EMAIL_INACTIVE_SUBJ"]="Nemáš platný účet na $SITENAME .";
 $language["EMAIL_INACTIVE_MSG"]="Ahoj \n\nTento email ti byl zaslán protože jsi dlouhou dobu nenavštívil náš tracker a byl jsi systémem vyhodnocen jako neaktivní člen.\nTvůj účet je nyní blokován a brzy dojde k jeho vymazání. \n\nPřejeme hezký den tvůj ModTeam.";
+
+$language["PRIVATE"]="Private Profile";
+
+//GOLD
+$language["GOLD_TYPE"]="Torrent type";
+$language["GOLD_PICTURE"]="Gold picture";
+$language["SILVER_PICTURE"]="Silver picture";
+$language["GOLD_DESCRIPTION"]="Gold description";
+$language["SILVER_DESCRIPTION"]="Silver description";
+$language["CLASSIC_DESCRIPTION"]="Classic description";
+$language["GOLD_LEVEL"]="Who can add gold/silver torrents";
+
+$language["FREE_TORRRENT"]="Free";
+$language["GOLD_NONE"]="All";
+$language["FREE_ONLY"]="Classic";
+$language["SIL_ONLY"]="Silver";
+$language["GOL_ONLY"]="Gold";
+$language["GOLD_SILWE"]="Silver & Gold";
+$language['gallery']='Gallery';
+$language["VISITS"]="Visitors";
+
+# Language expected torrents start
+$language['viewexpected']='View Expected/To Offer Torrents';
+$language['EXPECTED_V']='Expected/To Offer Torrents';
+$language['EXPECTED_VV']='Offer Votes View';
+$language['EX_NAME']='Want This ?';
+$language['EXPECTED_D']='Expected/To Offer Torrent Details';
+$language['EXPECTED_E']='Edit Expected/To Offer Torrent';
+$language['INC_DEAD']='Inc. dead';
+$language['ADD_EXPECTED']='Add a new expected/to offer torrent';
+$language['EXPECTED']='Expected';
+$language['EXPECVOTE']='Expected/Vote';
+$language['OFFER']='To Offer';
+$language['VIEW_MY_EXPECTED']='View my expected/to offer torrents';
+$language['VIEW_ONLY']='View Only';
+$language['TYPE']='Type';
+$language['FIND_EXPECT']='Find';
+$language['GO']='Go';
+$language['WRITE_CATEGORY']='Select Category!';
+$language['NO_NAME']='No Name!';
+$language['NO_DESCR']='Description Empty!';
+$language['EXP_ADD_SUCCES']='was added to the Expected section';
+$language['MUST_SEL_EXP']='You must select at least one expected torrent to delete.';
+$language['DELETED']='Deleted';
+$language['RETURN_EXPECT']='Go back to';
+$language['DATE_EXPECTED']='Date expected';
+$language['TORR_LINK']='Torrent Link';
+$language['TORR_CLICK']='Click here to go to the torrent';
+$language['FILL_INFO']='If you did upload the torrent , fill in the info below';
+$language['VOTE_EXPECTED']='Vote for this ';
+$language['OFFER_A']='Offer';
+$language['OFFER_N']='Nothing Here Yet';
+$language['OF_USER']='Username';
+$language['TEXT_DTA']='<p>You have already voted for this offer, only 1 vote for each offer is allowed</p></b>';
+$language['TEXT_DTB']='Successfully voted';
+$language['TEXT_DTC']='Your vote is added to this offer';
+$language['TEXT_DTD']='Only needed for expected torrents!';
+# Language expected torrents end
+      
+#nieuw
+$language['VOTE_EXPECTED_NO']='Vote AGAINST this ';
+      
+$language["ERR_REG_IP_BANNED"] = "I'm sorry but due to abuse, registrations from your IP address are currently banned!";
+$language["DTBAN"]="IP Ban";
+      
+$language['CHANGE_CONFIRM']='Are you sure you want to change this users download rights?';
+$language['CHANGED']='Change';
+$language["AGREE"]="You Need To Agree Before Signup";
+
+$language["ANN"]="Announcement";
+
+$language['SEED_T']='Seeding Time';
+
+$language["IPLOG"]="IP change log";
+
+
+$language['rip']='NFO Ripper';
+$language['rip_link']='Rip an NFO';
+$language['rip_desc']='<center><h1>NFO Ripper</h1><br />Optionaly upload an nfo file or paste the contents into the the box and click Rip!</center>';
+$language['rip_done']='Click below this line to select all text.';
+
+$language['IGN_OTHER']='Other';
+$language['LIST_IGNORE']='Ignore';
+$language['IGNORE1']='Ignore users';
+$language['IGNORE2']='Unable to send';
+$language['IGNORE_USERS']='Ignore user';
+$language['SINCE_IGNORE']='Ignored since when';
+$language['DELETE_IGNORE']='Cancel ignore';
+
+$language["DONATEBONUS"]="Donate Seedbonus Points";
+$language['AUTORANK_STATE']='Autorank State';
+$language['AUTORANK_POSITION']='Autorank Position';
+$language['AUTORANK_MIN_UPLOAD']='Autorank (Up/Down)load Trigger';
+$language['AUTORANK_IN_BYTES']=' (in bytes)';
+$language['AUTORANK_MIN_RATIO']='Autorank Ratio Trigger';
+$language['AUTORANK_SMF_MIRROR']='SMF Forums Rank Mirror';
+$language['AUTORANK_SMF_LIST']='<b><u>Current SMF Group List from the database</u></b><br />';
+
+$language['UIMG']='User Images & Titles';
+$language['ULR']='Upload REQ';
+$language['STYLE']='Season';
+
+//IMDB
+$language["IMDB_UL_FORM"] = "&nbsp;(optional)&nbsp;<b>tt<b><input type='text' name='imdb' size='10' maxlength='200' />&nbsp; The numbers after tt in the url.";
+$language["IMDB_EDIT_FORM"] = "The numbers after tt in the url.";
+$language["IMDB_NOT_ADDED"] = "No IMDB ID has been added..";
+$language["IMDB_RESIZE_ERR"] = "Resizable window will not work without Javascript.<br />Please enable Javascript or view the Info in a new window";
+$language["IMDB_EXTRA"] = "IMDB Extra";
+$language["IMDB_MORE_INFO"] = "More Info";
+$language["IMDB_COVER"] = "Cover";
+$language["IMDB_NO_PHOTO"] = "No photo available";
+$language["IMDB_LANGUAGES"] = "Languages";
+$language["IMDB_GENRE"] = "Genre";
+$language["IMDB_ALL_GENRES"] = "All Genres";
+$language["IMDB_RATING"] = "Rating";
+$language["IMDB_VOTES"] = "Votes";
+$language["IMDB_TAGLINE"] = "Tagline";
+$language["IMDB_PLOT_OUTLINE"] = "Plot Outline";
+$language["IMDB_PLOT"] = "Plot";
+$language["IMDB_TAGLINES"] = "Taglines";
+$language["IMDB_YEAR"] = "Year";
+$language["IMDB_RUNTIME"] = "Runtime";
+$language["IMDB_MINUTES"] = "minutes";
+$language["IMDB_CACHE_CON"] = "IMDB Cache Contents";
+$language["IMDB_MOV_DET"] = "Movie Details";
+$language["IMDB_PAGE"] = "IMDB page";
+$language["IMDB_NO_PHOTO"] = "No photo available";
+$language["IMDB_AKA"] = "Also known as";
+$language["IMDB_SEASONS"] = "Seasons";
+$language["IMDB_AGE_CLASS"] = "Age Classification";
+$language["IMDB_COUNTRY"] = "Country";
+$language["IMDB_COLORS"] = "Colors";
+$language["IMDB_SOUND"] = "Sound";
+$language["IMDB_DIRECTOR"] = "Director";
+$language["IMDB_WRITING_BY"] = "Writing By";
+$language["IMDB_WRITER"] = "Writer";
+$language["IMDB_ROLE"] = "Role";
+$language["IMDB_PRODUCED_BY"] = "Produced By";
+$language["IMDB_PRODUCER"] = "Producer";
+$language["IMDB_MUSIC"] = "Music";
+$language["IMDB_MUSICIAN"] = "Musician";
+$language["IMDB_ACTOR"] = "Actor";
+$language["IMDB_CAST"] = "Cast";
+$language["IMDB_PLOT_OUTLINE"] = "Plot Outline";
+$language["IMDB_PLOT"] = "Plot";
+$language["IMDB_EPISODE"] = "Episode";
+$language["IMDB_EPISODES"] = "Episodes";
+$language["IMDB_SEASON"] = "Season";
+$language["IMDB_ORIG_AIR_DATE"] = "Original Air Date";
+$language["IMDB_USER_COMMENTS"] = "User Comments";
+$language["IMDB_MOVIE_QUOTES"] = "Movie Quotes";
+$language["IMDB_TRAILERS"] = "Trailers";
+$language["IMDB_CR_CRED"] = "Crazy Credits";
+$language["IMDB_CR_CRED_1"] = "We know about";
+$language["IMDB_CR_CRED_2"] = "One of them reads";
+$language["IMDB_GOOFS"] = "Goofs";
+$language["IMDB_GOOFS_1"] = "Here comes one of them";
+$language["IMDB_TRIVIA"] = "Trivia";
+$language["IMDB_TRIVIA_1"] = "There are";
+$language["IMDB_TRIVIA_2"] = "entries in the trivia list - like these";
+$language["IMDB_TRIVIA_3"] = "trivia records. Some examples";
+$language["IMDB_SOUNDTRACKS"] = "Soundtracks";
+$language["IMDB_SOUNDTRACK"] = "Soundtrack";
+$language["IMDB_SOUNDTRACKS_1"] = "soundtracks listed - like these";
+$language["IMDB_CREDIT"] = "Credit";
+$language["IMDB_CAUSE"] = "Cause";
+$language["IMDB_BIRTH_NAME"] = "Birth Name";
+$language["IMDB_NICKNAMES"] = "Nickname(s)";
+$language["IMDB_BODY_HEIGHT"] = "Body Height";
+$language["IMDB_SPOUSES"] = "Spouse(s)";
+$language["IMDB_SPOUSE"] = "Spouse";
+$language["IMDB_PERIOD"] = "Period";
+$language["IMDB_COMMENT"] = "Comment";
+$language["IMDB_KIDS"] = "Kids";
+$language["IMDB_MINI_BIO"] = "Mini Bio";
+$language["IMDB_TM"] = "Trademarks";
+$language["IMDB_SALARY"] = "Salary";
+$language["IMDB_MOVIE"] = "Movie";
+$language["IMDB_CHAR"] = "Character";
+$language["IMDB_PUBL"] = "Publications";
+$language["IMDB_AUTHOR"] = "Author";
+$language["IMDB_TITLE"] = "Title";
+$language["IMDB_ISBN"] = "ISBN";
+$language["IMDB_BIO_MOVIES"] = "Biographical movies";
+$language["IMDB_INTERVIEW"] = "Interview";
+$language["IMDB_INTERVIEWS"] = "Interviews";
+$language["IMDB_DETAILS"] = "Details";
+$language["IMDB_PERF_SEARCH"] = "Performing IMDB search for";
+$language["IMDB_NAME"] = "Name";
+$language['ARCADE']='Arcade';
+$language['FLASH']='Try to get the highscore !';
+$language["MNU_IRC"]="Irc";
+$language['stderr_error']='Error';
+$language['stderr_only_coder']='Only site-coders can do this! And you know it!';
+$language['stderr_no_na']='You can\'t choose NA option!';
+$language['stderr_invalid_id']='Invalid ID';
+$language['stderr_only_staff_can_view']='Only staff can view bugs';
+$language['stderr_missing']='You missing something?';
+$language['stderr_problem_20']='We can\'t use a problem text there is less then 20 chars.';
+$language['stderr_title_10']='We can\'t use a title there is less then 10 chars.';
+$language['stderr_sucess']='Sucess';
+$language['stderr_sucess_2']='Your bug has been sent to our coder.<br/>You have choosen priority: %s';
+$language['stderr_something_is_wrong']='There was a error.. Please try again.';
+$language['low']='Low';
+$language['high']='High';
+$language['veryhigh']='Very High';
+$language['fixed']='Fixed';
+$language['ignored']='Ignored';
+$language['select_one']='Select one';
+$language['fix_problem']='Fix this problem';
+$language['ignore_problem']='Ignore this problem';
+$language['title']='Title';
+$language['added']='Added';
+$language['by']='By';
+$language['priority']='Priority';
+$language['problem_bug']='Problem (Bug)';
+$language['status']='Status';
+$language['coder']='Coder';
+$language['proper_title']='Please choose a proper title.';
+$language['describe_problem']='Describe the problem as best as possible';
+$language['only_veryhigh_when']='Choose only very high if the bug really is a problem for using the site.';
+$language['submit_btn_fix']='Fix!';
+$language['submit_btn_send']='Send this bug!';
+$language['go_back']='Go back';
+$language['h1_count_bugs']="There is <font color='#FF0000'>%s</font> new bug%s. Please check them";
+$language['delete_when']='All solved bugs will be deleted after 2 weeks (from added date).';
+$language['no_bugs']='There is no bugs =]. Good coder we have xD';
+$language['MNU_BUGS']='Report a Bug';
+$language['NOTEPAD']=' Personal Notepad ';
+$language['NOTEPAD1']='(';
+$language['NOTEPAD2']=')';
+$language['NOTEPAD3']=' notes';
+$language['NOTE_ADD_NEW']='Add new personal note';
+$language['NOTE_DATETIME']='Date/Time';
+$language['NOTE_DEL_ERR']='You must select at least one note to delete.';
+$language['NOTE_EDIT']='Edit';
+$language['NOTE_EDIT_ERROR']="You shouldn't try to edit other people's notes !";
+$language['NOTE_ID']='ID';
+$language['NOTE_NOTE']='Note';
+$language['NOTE_VIEW']='Read';
+$language['NOTE_READ_ERROR']="You shouldn't try to read other people's notes !";
+$language['NOTE_VIEW_MORE']='View more notes';
+$language["SHITLIST"]="Shitlist";
+$language["SHIT"]="Add member to the Shitlist";
+$language['SHOUTBOXP']='Private Shouts';
+$language["LANGUAGE"]="Language";
+$language["COMMENTPM"]="Comment Notification";
+$language['VIDEOPAGE']='YouTube Page';
+$language['VID_NONE']='Error, this video doesn not exist.';
+$language['VID_FAKE']='Error, you inserted a fake url.';
+$language['VID_PAGE']='Insert URL , Filename and Category.';
+$language['VID_BACK']='Back to Main YouTube Page';
+$language['VID_EMPTY']='There are no video,s in this category yet';
+$language['VID_NEW']='Add new video';
+$language['VID_URL']='YouTube URL';
+$language['VID_FILE']='File Name';
+$language['VID_CAT']='Category';
+$language['VID_CATES']='-- Choose YouTube Category--';
+$language['VID_ADD']='Add Video';
+$language['VID_CATA']='Autos & Vehicles';
+$language['VID_CATB']='Comedy';
+$language['VID_CATC']='Entertainment';
+$language['VID_CATD']='Film & Animation';
+$language['VID_CATE']='Howto & Style';
+$language['VID_CATF']='Music';
+$language['VID_CATG']='News & Politics';
+$language['VID_CATH']='People & Blogs';
+$language['VID_CATI']='Pets & Animals';
+$language['VID_CATJ']='Sports';
+$language['VID_CATK']='Travel & Events';
+$language['DELETEI']='Image Code';
+$language['DELETEM']='Option';
+$language['DELETEME']='Delete me';
+$language["UNLOG"]="Username Change Log";
+$language['PERMISSIONS']='Permissions';
+$language["NOT_ACCESS_TORR_DETAILS"]="You don't have access to torrent details in that category!";
+$language["NOT_ACCESS_TO_DOWNLOADS"]="You don't have access to download torrents from that category!";
+$language['SLOTS']='Slots Machine';
+$language["IMDBS"]="IMDb Search";
+$language["MEMBERSNEWTODAY"]="Registered today";
+$language["MEMBERSNEWMONTH"]="New this month";
+$language["TORRENTSNEWTODAY"]="Uploaded today";
+$language["TORRENTSNEWMONTH"]="New this month";
+$language["DOX"]="File Hosting";
+$language["DOX_SETTINGS"]="File Hosting Settings";
+$language["MAX_FILE"]="Max File Size (in bytes)";
+$language["DAYS_PRUNE"]="Days Before Prune";
+$language["MIN_DL"]="min ID Level to download";
+$language["MIN_UL"]="min ID Level to upload";
+$language["TEXT"]="Text";
+$language["UPLOAD"]="Upload";
+$language['MNU_support']='Contact Us';
+$language["CACHE_SITE"]="Cache Interval";
+
+        $language['PARTNERS']='Our Partners';
+      
+$language['SEEDBOX']='Torrents speeded up by SeedBox';
+
 $language["DISABLE_STATS_COUNT"]="Deaktivace počítání";
 $language["STATS_COUNT"]="Počítání";
 $language["LEVEL_VISIBILE"]="Viditelný pro";

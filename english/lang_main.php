@@ -468,7 +468,7 @@ $language["WIN_PERCENTAGE"]="Win Percentage";
 
 $language['RESET_PID'] = 'Reset PID';
 
-##**** Language definitions added by TreetopClimber © 2007 - 2014. PLEASE DO NOT MOVE MY INSERTS!! *****##
+##**** Language definitions added by TreetopClimber Â© 2007 - 2014. PLEASE DO NOT MOVE MY INSERTS!! *****##
 $language['EXTRA']='extra';
 $language['DROPDOWN']='dropdown';
 $language['DOCK']='dock'; # New for diemthuys dock menu

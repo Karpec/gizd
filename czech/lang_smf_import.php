@@ -1,5 +1,8 @@
 <?php
 
+if(!isset($_GET["smf_type"]))
+    $_GET["smf_type"]="";
+
 // smf_import.php language file
 
 $lang[0]='Ano';
