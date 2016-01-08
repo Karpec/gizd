@@ -20,10 +20,10 @@ $language['BLOCK_SERVERLOAD']='Server Load';
 $language['BLOCK_POLL']='Anketa';
 global $CURUSER;
 if($CURUSER['tor']=='last' or $CURUSER['tor']=='')
-$language['BLOCK_LASTTORRENTS']='Last Upload';
+$language['BLOCK_LASTTORRENTS']='Nejnovější torrenty';
 
 if($CURUSER['tor']=='top')
-$language['BLOCK_LASTTORRENTS']='Top Torrents';
+$language['BLOCK_LASTTORRENTS']='Top torrenty';
 
 if($CURUSER['tor']=='seed')
 $language['BLOCK_LASTTORRENTS']='Seed Wanted Torrents';
@@ -34,19 +34,19 @@ $language['BLOCK_MAINUSERTOOLBAR']='Main User Toolbar';
 $language['WELCOME_LASTUSER']=' Welcome to our Tracker ';
 $language['BLOCK_MINCLASSVIEW']='Minimum rank that can view';
 $language['BLOCK_MAXCLASSVIEW']='Maximum rank that can view';
-$language["LC"]="Latest Comments";
+$language["LC"]="Nejnovější komentáře";
 
-$language["BLACKJACK_STATS"]="Your Blackjack Stats";
+$language["BLACKJACK_STATS"]="Tvoje Blackjack statistika";
 
-$language['BLOCK_REQUEST'] = 'Most Voted Requests';
-$language["BLOCK_TOPU"]="Top Uploaders";
-$language["BLOCK_FEATURED"]="Last Torrents";
+$language['BLOCK_REQUEST'] = 'Nejžádanější torrenty';
+$language["BLOCK_TOPU"]="Top uploadeři";
+$language["BLOCK_FEATURED"]="Nejnovější torrenty";
 $language["BLOCK_ADMIN"]="Admin Checks";
 $language["BLOCK_WARN"]="Low Ratio Warnings";
 $language['Ticker']='Info and News';
 
-$language["BLOCK_BIRTHDAY"]="Today's Birthdays";
-$language["BLOCK_NO_BIRTHDAY"]="No members are celebrating a birthday today";
+$language["BLOCK_BIRTHDAY"]="Dnešní narozeniny";
+$language["BLOCK_NO_BIRTHDAY"]="Dneska nikdo neoslavuje své narozeniny";
 $language['BLOCK_MAINTRACKERTOOLBAR']='Hlavní Panel trackeru';
 $language['BLOCK_MAINUSERTOOLBAR']='Hlavní Uživatelský Panel ';
 $language['WELCOME_LASTUSER']='Nový člen Besttrackeru';
@@ -78,20 +78,20 @@ $language["BLOCK_CAT"]="Kategorie torrentů";
 $language["CLIENT"]="Recommended";
 $language["BLOCK_HIT"]="HIT & RUN Warning";
 $language['REC_BLOCK']='Recommended By Staff';
-$language['gallery']='Gallery';
-$language['SUB_BLOCK']='Subtitles';
+$language['gallery']='Galerie';
+$language['SUB_BLOCK']='Titulky';
 $language['DIV_BLOCK']='Singup Info';
-$language["BLOCK_FEATUREDD"]="Torrent of the Day";
+$language["BLOCK_FEATUREDD"]="Torrent dne";
 $language['ARCADE']='Arcade';
 $language["BLOCK_EVENT"]="Event Counter";
-$language['BLOCK_UPDO']='Last up/downloads';
-$language["BLOCK_CAT"]="Categories";
+$language['BLOCK_UPDO']='Poslední aktivita';
+$language["BLOCK_CAT"]="Kategorie";
 $language['BLOCK_SB']='Seedbox';
-$language['MP']='MP3 Player';
+$language['MP']='MP3 přehrávač';
 
-$language['BLOCK_SEARCH']='Search';
+$language['BLOCK_SEARCH']='Hledat';
 
-        $language['BLOCK_LINKS']='Our Partners';
+        $language['BLOCK_LINKS']='Naši partneři';
       
     $language['BLOCK_SB']='Seedbox';
 ?>

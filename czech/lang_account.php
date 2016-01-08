@@ -20,9 +20,9 @@ $language['WEEK']='Slabé';
 $language['MEDIUM']='Střední';
 $language['SAFE']='Velké';
 $language['STRONG']='Bezpečné';
-$language["ERR_GENERIC"]='Generic Error: '.((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false));
+$language["ERR_GENERIC"]='Obecná chyba: '.((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false));
 
-$language['HEARD_ABOUT_US'] = '<font color = red>[optional] </font>Where did you hear about us ?';
+$language['HEARD_ABOUT_US'] = '<font color = red>[optional] </font>Kde jste se o nás dozvěděli ?';
 //INVITATION SYSTEM
 $language['INVIT_MSGINFO']='You have requested a new account on '.$SITENAME.' and you have\nspecified this address (';
 $language['INVIT_MSGINFO1']=') as user contact.<br /><br />Your account is awaiting confirmation from your inviter.'.

@@ -18,6 +18,6 @@ $language['DELETE']          = 'Smazat';
 $language['NO_USERS_FOUND']  = 'Žádný uživatel nenalezend!';
 $language['UNKNOWN']         = 'neznámý';
 
-$language["STATUS"] = "User Status";
+$language["STATUS"] = "Stav uživatele";
 
 ?>

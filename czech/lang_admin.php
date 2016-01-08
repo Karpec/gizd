@@ -1,6 +1,6 @@
 <?php
 $language['ACP_BAN_IP']='Banovat IP';
-$language["ACP_ADD_WARN"]="Torrent moderation reasons";
+$language["ACP_ADD_WARN"]="Důvody úpravy torrentu";
 $language["WARN_TITLE"]="Title of reason";
 $language["WARN_TEXT"]="Explain reason";
 $language["WARN_ADD_REASON"]="Add new reason";
@@ -61,7 +61,7 @@ $language['ACP_TORRENTS_TOOLS']='Nástroje Torrentů';
 $language['ACP_OTHER_TOOLS']='Ostatní nástroje';
 $language['ACP_MYSQL_STATS']='MySql Statistika';
 $language['XBTT_BACKEND']='xbtt možnosti';
-$language['XBTT_USE']='Použít <a href="http://xbtt.sourceforge.net/tracker/" target="_blank">xbtt</a> as backend?';
+$language['XBTT_USE']='Použít <a href="http://xbtt.sourceforge.net/tracker/" target="_blank">xbtt</a> jako backend?';
 $language['XBTT_URL']='Základní xbtt url např. http://localhost:2710';
 $language['GENERAL_SETTINGS']='Hlavní nastavení';
 $language['TRACKER_NAME']='Jméno&rsquo;s serveru';
@@ -353,16 +353,16 @@ $language["SECSUI_QUAR_DIR_2"]="This folder should ideally be impossible to acce
 $language["SECSUI_QUAR_DIR_3"]="Please ensure that you CHOWN/CHMOD this directory appropriately so that the server can write files to it.";
 $language["SECSUI_QUAR_PM"]="Tracker ID to PM when files are quarantined";
 $language["SECSUI_QUAR_INV_USR"]="Invalid User";
-$language["SECSUI_PASS_SETTINGS"]="Password Settings";
-$language["SECSUI_PASS_TYPE"]="Password Hashing Method";
-$language["SECSUI_PASS_INFO"]="Here you can select the password hashing algorithm you'd like xbtit to use when it stores the password in the database:";
+$language["SECSUI_PASS_SETTINGS"]="Nastavení hesla";
+$language["SECSUI_PASS_TYPE"]="Metoda bezpečnosti hesla";
+$language["SECSUI_PASS_INFO"]="Zde můžete zvolit algoritmus metody zabezpečení hesla.";
 $language["SECSUI_NO_MEMBER"]="No member exists with that tracker id";
 $language["SECSUI_GAZ_TITLE"]="Gazelle Site Salt";
 $language["SECSUI_GAZ_DESC"]="You should set a random value here, once set you should not change it whilst this hashing method in use otherwise everyone will have to recover their passwords.";
-$language["SECSUI_COOKIE_SETTINGS"]="Cookie Settings";
-$language["SECSUI_COOKIE_PRIMARY"]="Main Cookie Settings";
-$language["SECSUI_COOKIE_TYPE"]="Cookie Type";
-$language["SECSUI_COOKIE_EXPIRE"]="Cookie will expire in";
+$language["SECSUI_COOKIE_SETTINGS"]="Nastavení Cookie";
+$language["SECSUI_COOKIE_PRIMARY"]="Hlavní nastavení cookie";
+$language["SECSUI_COOKIE_TYPE"]="Typ coockie";
+$language["SECSUI_COOKIE_EXPIRE"]="Cookie vypršá za";
 $language["SECSUI_COOKIE_T1"]="Classic xbtit";
 $language["SECSUI_COOKIE_T2"]="New xbtit (Regular)";
 $language["SECSUI_COOKIE_T3"]="New xbtit (Session)";
@@ -370,23 +370,23 @@ $language["SECSUI_COOKIE_NAME"]="Cookie Name";
 $language["SECSUI_COOKIE_ITEMS"]="Cookie Items";
 $language["SECSUI_COOKIE_PATH"]="Cookie Path";
 $language["SECSUI_COOKIE_DOMAIN"]="Cookie Domain";
-$language["SECSUI_COOKIE_MIN"]="Minute";
-$language["SECSUI_COOKIE_MINS"]="Minutes";
-$language["SECSUI_COOKIE_HOUR"]="Hour";
-$language["SECSUI_COOKIE_HOURS"]="Hours";
-$language["SECSUI_COOKIE_DAY"]="Day";
-$language["SECSUI_COOKIE_DAYS"]="Days";
-$language["SECSUI_COOKIE_WEEK"]="Week";
-$language["SECSUI_COOKIE_WEEKS"]="Weeks";
-$language["SECSUI_COOKIE_MONTH"]="Month";
-$language["SECSUI_COOKIE_MONTHS"]="Months";
-$language["SECSUI_COOKIE_YEAR"]="Year";
-$language["SECSUI_COOKIE_YEARS"]="Years";
+$language["SECSUI_COOKIE_MIN"]="Minuta";
+$language["SECSUI_COOKIE_MINS"]="Minuty";
+$language["SECSUI_COOKIE_HOUR"]="Hodina";
+$language["SECSUI_COOKIE_HOURS"]="Hodiny";
+$language["SECSUI_COOKIE_DAY"]="Den";
+$language["SECSUI_COOKIE_DAYS"]="Dny";
+$language["SECSUI_COOKIE_WEEK"]="Týden";
+$language["SECSUI_COOKIE_WEEKS"]="Týdny";
+$language["SECSUI_COOKIE_MONTH"]="Měsíc";
+$language["SECSUI_COOKIE_MONTHS"]="Měsíce";
+$language["SECSUI_COOKIE_YEAR"]="Rok";
+$language["SECSUI_COOKIE_YEARS"]="Roky";
 $language["SECSUI_COOKIE_TOO_FAR"]="I'm sorry, that would put the expire date past the current limit of Tue, 19 Jan 2038 03:14:07 GMT, please adjust your expire date accordingly!";
 $language["SECSUI_COOKIE_PSALT"]="Password Salt";
 $language["SECSUI_COOKIE_UAGENT"]="User Agent";
 $language["SECSUI_COOKIE_ALANG"]="Accept Language";
-$language["SECSUI_COOKIE_IP"]="IP Address";
+$language["SECSUI_COOKIE_IP"]="IP adresa";
 $language["SECSUI_COOKIE_DEF"]="NOTE: All cookie types will include the following by default:<br /><br /><li>Tracker ID</li><li>Password Hash</li><li>Random Number</li>";
 $language["SECSUI_COOKIE_PD"]="NOTE: If you're not sure what to put for \"Cookie Path\" or \"Cookie Domain\", you should just leave them blank and the defaults will be used";
 $language["SECSUI_COOKIE_IP_TYPE_1"] = "1st octet only (Y.N.N.N)";
@@ -408,21 +408,21 @@ $language["SECSUI_PASSHASH_TYPE_3"] = "TorrentStrike";
 $language["SECSUI_PASSHASH_TYPE_4"] = "Gazelle";
 $language["SECSUI_PASSHASH_TYPE_5"] = "Simple Machines Forum";
 $language["SECSUI_PASSHASH_TYPE_6"] = "New xbtit";
-$language["SECSUI_PASS_MUST"] = "Password must";
-$language["SECSUI_PASS_BE_AT_LEAST"] = "Be at least";
-$language["SECSUI_PASS_HAVE_AT_LEAST"] = "Have at least";
-$language["SECSUI_PASS_CHAR_IN_LEN"] = "character in length";
-$language["SECSUI_PASS_CHAR_IN_LEN_A"] = "characters in length";
-$language["SECSUI_PASS_LC_LET"] = "lower case letter";
-$language["SECSUI_PASS_LC_LET_A"] = "lower case letters";
-$language["SECSUI_PASS_UC_LET"] = "upper case letter";
-$language["SECSUI_PASS_UC_LET_A"] = "upper case letters";
-$language["SECSUI_PASS_NUM"] = "number";
-$language["SECSUI_PASS_NUM_A"] = "numbers";
+$language["SECSUI_PASS_MUST"] = "Heslo musí mít";
+$language["SECSUI_PASS_BE_AT_LEAST"] = "minimálně";
+$language["SECSUI_PASS_HAVE_AT_LEAST"] = "minimálně";
+$language["SECSUI_PASS_CHAR_IN_LEN"] = "znak";
+$language["SECSUI_PASS_CHAR_IN_LEN_A"] = "znaků";
+$language["SECSUI_PASS_LC_LET"] = "malé písmeno";
+$language["SECSUI_PASS_LC_LET_A"] = "malých písmen";
+$language["SECSUI_PASS_UC_LET"] = "velké písmeno";
+$language["SECSUI_PASS_UC_LET_A"] = "veklých písmen";
+$language["SECSUI_PASS_NUM"] = "číslo";
+$language["SECSUI_PASS_NUM_A"] = "čísla";
 $language["SECSUI_PASS_SYM"] = "symbol";
-$language["SECSUI_PASS_SYM_A"] = "symbols";
-$language["SECSUI_PASS_ERR_1"] = "You cannot have a higher value for Upper Case + Lower Case + Numbers + Symbols";
-$language["SECSUI_PASS_ERR_2"] = "than you have for the minimum number of characters needed in the password";
+$language["SECSUI_PASS_SYM_A"] = "symboly";
+$language["SECSUI_PASS_ERR_1"] = "Nemůžete mít větší součet v políčkách velkých písmen + malých písmen + čísel + symbolů";
+$language["SECSUI_PASS_ERR_2"] = "než máte nastaveno minimálně znaků.";
 
 $language["SMF_MIRROR"] = "SMF Mirror";
 $language["GROUP_SMF_MIRROR"] = "Mirroring rank on the SMF forum for rank changes etc.";
@@ -443,30 +443,15 @@ $language["STICKY_SETTINGS"]="Sticky settings";
 $language["COLOR"]="Color";
 $language["LEVEL_STICKY"]="Who can add sticky torrents? (default: Uploader)";
 
-$language["ACP_SEEDBONUS"]="SeedBonus Settings";
-$language["BONUS"]="Points per torrent in hour";
-$language["PRICE_VIP"]="Price for rank VIP";
-$language["PRICE_CT"]="Price for CustomTitle";
-$language["PRICE_NAME"]="Price for change username";
-$language["PRICE_GB"]="Price for GB";
-$language["POINTS"]="Points";
-$language["SEEDBONUS_UPDATED"]="SeedBonus settings updated";
-
 $language['ACP_DONATE']='VIP & Donate Settings';
 
 $language['ACP_DON_HIST']='Donation Historie';
-$language['ACP_FREECTRL']='Free Leech Settings';
+$language['ACP_FREECTRL']='Nastavení Free Leech';
 $language["AVATAR_UPLOAD"] = "Avatar Upload";
 $language["MAX_FILE_SIZE"] = "Max. size of the file! (in kb)";
 $language["MAX_IMAGE_SIZE"] = "Max. size of the image!";
 $language["IMAGE_WIDTH"] = "Width";
 $language["IMAGE_HEIGHT"] = "Height";$language['ACP_FLUSH']='Flush All Ghost Torrents';$language['GROUP_MAX_TORRENTS']='Max Active Torrents ';
-
-$language["IMAGE_SETTING"]="Image Settings";
-$language["ALLOW_IMAGE_UPLOAD"]="Allow image upload";
-$language["ALLOW_SCREEN_UPLOAD"]="Allow screens upload";
-$language["IMAGE_UPLOAD_DIR"]="Image upload dir";
-$language["FILE_SIZELIMIT"]="Image size limit";
 
 #######Beny
 $language['ACP_MAC']='MAC Address(es) Tools';
@@ -597,14 +582,14 @@ $language["ACP_BLACKLIST"]="Blacklist";
 $language["ACP_COMMENTS"]="Comments Spy";
 
 //RULES
-$language["ACP_RULES_GROUP"]="Rules groups";
-$language["ACP_RULES"]="Rules";
+$language["ACP_RULES_GROUP"]="Skupiny pravidel";
+$language["ACP_RULES"]="Pravidla";
 //FAQ
-$language["ACP_FAQ_GROUP"]="Faq groups";
-$language["ACP_FAQ"]="Faq";
-$language["ACP_FAQ_QUESTION"]="Faq questions";
+$language["ACP_FAQ_GROUP"]="FAQ skupiny";
+$language["ACP_FAQ"]="FAQ";
+$language["ACP_FAQ_QUESTION"]="FAQ otázky";
       
-$language["ACP_FEATURED"]="Featured Torrent";
+$language["ACP_FEATURED"]="Doporučené torrenty";
 
 $language["WHERE_HEARD"] = 'Heard About Us';
 
@@ -630,7 +615,7 @@ $language["ACP_OFFLINE"]="Offline Settings";
 $language["OFFLINE_SETTING"]="Site is Offline?";
 $language["OFFLINE_MESSAGE"]="Offline message to users (max 200 chars, only admin could access offline site)";
       
-$language["ACP_BIRTHDAY"]="Birthday Hack Settings";
+$language["ACP_BIRTHDAY"]="Nastavení narozenin";
 $language["BIRTHDAY_LOWER_LIMIT"]="Minimum User Age";
 $language["BIRTHDAY_UPPER_LIMIT"]="Maximum User Age";
 $language["BIRTHDAY_BONUS"]="Birthday Bonus per year (GB)";
@@ -659,42 +644,42 @@ $language["LOTT_ID"] = "Id";
 $language["LOTT_USERNAME"] = "Username";
 $language["LOTT_NUMBER_OF_TICKETS"] = "Number of tickets";
 $language["BACK_TO_LOTTERY"]="Back to Lottery";
-$language["LOTT_SENDER_ID"]="Sender ID for PM";//INVITATION SYSTEM
-$language['ACP_INVITATION_SYSTEM']='Invitation System';
-$language['ACTIVE_INVITATIONS']='Activate Invitation System:';
-$language['PRIVATE_TRACKER']='Private Tracker';
-$language['PRIVATE_TRACKER_INFO']='For improved security, when setting the tracker to "Private",<br />"Max users" will also be changed to "1".';
-$language['ACP_INVITATIONS']='Invitations';
-$language['VALID_INV_MODE']='Inviter Confirmation Required';
-$language['INVITE_TIMEOUT']='Dead time for invitations<br />( on days )';
-$language['INVITED_BY']='Invited by';
-$language['SENT_TO']='Sent to';
-$language['DATE_SENT']='Date Sent';
-$language['INV_WELCOME']='Welcome to Invitation System Panel.<br />Activating this option will prevent users from<br />signing up without an invitation code.';
+$language["LOTT_SENDER_ID"]="Sender ID for PM";
+//INVITATION SYSTEM
+$language['ACP_INVITATION_SYSTEM']='Pozvánky';
+$language['ACTIVE_INVITATIONS']='Aktivujte systém pozvánek';
+$language['PRIVATE_TRACKER']='Soukromý tracker';
+$language['PRIVATE_TRACKER_INFO']='Pro zlepšení bezpečnosti, "maximum uživatelů" bude také změněno na "1".';
+$language['ACP_INVITATIONS']='Pozvánky';
+$language['VALID_INV_MODE']='Vyžadováno potvrzení pozývajícím';
+$language['INVITE_TIMEOUT']='Vypršení pozvánky<br />( ve dnech )';
+$language['INVITED_BY']='Pozván uživatelem';
+$language['SENT_TO']='Odesláno pro';
+$language['DATE_SENT']='Datum odeslání';
+$language['INV_WELCOME']='Vítéjte v systému pozvánek.<br />Aktivací tohohle systému zabráníte registraci uživatelů bez pozvánky.';
 $language['HASH']='Hash';
-$language['VALID_INV_MODE']='Confirmation needed';
-$language['VALID_INV_EXPL']='<i>Inviter will have to confirm invited user account</i>';
-$language['INVITE_TIMEOUT']='Dead time for invitations<br />( on days )';
-$language['GIVE_INVITES_TO']='Give Invitations';
-$language['NUM_INVITES']='Number of Invitations';
-$language['INVITES_SETTINGS']='Settings';
-$language['INVITES_LIST']='Invitation List';
-$language['SENDINV_CONFIRM']='Are you sure you want to send this invitation?';
-$language['ERR_SENDINVS']='Please, choose username or user level.';
-$language['SENDINV_EXPL']='If username is not inserted, rank will be chosen instead.';
-$language['RECYCLE_DATE']='Recycle period';
-$language['RECYCLE_EXPL']='<i>Period in <u>days</u> after which invitations will be recycled</i>';
+$language['VALID_INV_MODE']='Požadovat potvrzení';
+$language['VALID_INV_EXPL']='<i>Pozývající bude muset potvrdit pozvaný uživatelský účet</i>';
+$language['GIVE_INVITES_TO']='Darovat pozvánky';
+$language['NUM_INVITES']='Počet pozvánek';
+$language['INVITES_SETTINGS']='Nastavení';
+$language['INVITES_LIST']='Seznam pozvánek';
+$language['SENDINV_CONFIRM']='Opravdu chcete poslat tuhle pozvánku??';
+$language['ERR_SENDINVS']='Prosím, vyberte uživatelské jméno nebo hodnost.';
+$language['SENDINV_EXPL']='Pokud nevložíte uživatelské jméno, tak bude použíta hodnost.';
+$language['RECYCLE_DATE']='Doba smazání';
+$language['RECYCLE_EXPL']='<i>Doba ve <u>dnech</u> po které budou pozvánky smazány</i>';
         
-$language["REPUTATION"]="Reputation Settings";
+$language["REPUTATION"]="Nastavení reputace";
 $language["REPUTATION_LIST"]="Reputation Spy";
       
-$language["AUTO_PRUNE_USERS"]="Auto prune users settings";
-$language["ALLOW_AUTO_PRUNE"]="Allow auto prune";
-$language["ALLOW_EMAIL_ON_PRUNE"]="Allow email before prune user";
-$language["DAYS_MEMBERS"]="Inactive days to prune";
-$language["DAYS_NOT_CONFIRM"]="Days for not confirmed users";
-$language["DAYS_TO_EMAIL"]="Inactive days to email message";
-$language["AUTO_PRUNE"]="Auto prune";
+$language["AUTO_PRUNE_USERS"]="Automatické pročištěni uživatelů";
+$language["ALLOW_AUTO_PRUNE"]="Povolit automatické pročištěni uživatelů";
+$language["ALLOW_EMAIL_ON_PRUNE"]="Poslat email před smazáním uživatele";
+$language["DAYS_MEMBERS"]="Neaktivní dny pro smazaní";
+$language["DAYS_NOT_CONFIRM"]="Nepotvrzený uživatel pro smazaní(dny)";
+$language["DAYS_TO_EMAIL"]="Neaktivní dny po emailové zprávě";
+$language["AUTO_PRUNE"]="Automatické čištění";
 
 $language['BAN_CLIENT']='Ban BitTorrent Client';
 $language['REMOVE_CLIENTBAN']='Remove BitTorrent Client Ban';
@@ -711,25 +696,25 @@ $language['BAN_ALL_VERSIONS']='Ban all versions?';
 $language['REASON']='Reason';
 
 //GOLD
-$language["ACP_GOLD"]="Gold torrents settings";
+$language["ACP_GOLD"]="Nastavení zlatých torrentů";
 
-$language['ACP_CLIENTS']='Recommended Settings';
+$language['ACP_CLIENTS']='Mini Bannery';
 $language["ACP_FREELEECH_REQ"]="Free Leech Request";
 $language["SEEDBONUS"]="SeedBonus";
       
 //Add New Users in AdminCP
-$language["ACP_ADD_USER"]='Add New User';
-$language["NEW_USER_EMAIL"]='Send an email to new user with password';
+$language["ACP_ADD_USER"]='Přidat nového uživatele';
+$language["NEW_USER_EMAIL"]='Poslat uživateli email s heslem';
 $language["NEW_USER_EMAIL_TEXT"]='
-Hi %s,
+Ahoj %s,
 
-You\'ve just be added at %s,
-username: %s
-password: %s
+právě jsem tě přídal na náš tracker %s,
+uživatelksé jméné: %s
+heslo: %s
 
-Hope you\'ll enjoy staying with us
-Greetings
-The Staff';
+Doufám, že si to s námi užiješ.
+S pozdravem
+Admn';
 
 $language["VFL"] = "FreeLeech";
 $language["ACP_ISPY"]="Message Spy";
@@ -820,7 +805,7 @@ $language["SETTING_IRC_PORT"]="Irc Port";
 $language["SETTING_IRC_CHANNEL"]="Irc Channel (without #)";
 
 $language["DUPLICATES_PAS"]="Password Duplicates";
-$language["ERROR_PAS"]="Error";
+$language["ERROR_PAS"]="Chyba";
 $language["ERR_USERS_NOT_FOUND_PAS"]="No users found!";
 $language['VIEW_CAT']='View category';
 $language['VIEW_TORR_LIST']='View torrent list';
@@ -845,7 +830,7 @@ $language["CALCU"]="Calculator";
 
 
 // --------> modpanel
-$language['ACP_MODPANEL']='Staff Panel Settings';
+$language['ACP_MODPANEL']='Nastavení administrátorů';
 $language['MODCP_SECTION']='Section (the section you want to allow your mod/admin, it\'s the do=xxxx part in the link):';
 $language['MODCP_DESC']='Description (if you use a language definition, then language string will be used, else the string you wrote. eg: you put "ACP_BAN_IP" it\'ll display "'.$language['ACP_BAN_IP'].'" ):';
 $language['MODCP_URL']='URL (the url to access the resource, {uid} will be replaced by user\'s id and {ucode} eg: link for banip is http://localhost/xbtit/index.php?page=admin&user={uid}&code={ucode}&do=category&action=read):';
