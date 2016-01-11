@@ -1,0 +1,1 @@
+a:1:{i:0;a:3:{s:5:"title";s:12:"BLOCK_DDMENU";s:7:"content";s:12:"dropdownmenu";s:5:"cache";s:2:"no";}}

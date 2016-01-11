@@ -1,0 +1,26 @@
+[08-Jan-2016 01:02:04 Europe/Prague] PHP Fatal error:  require_once(): Failed opening required '/lang_main.php' (include_path='.:/usr/local/share/yii/framework/') in /home/web/gizd.cz/www/imdb/imdb.php on line 70
+[08-Jan-2016 01:02:18 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:10:48 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:11:18 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:11:19 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:11:26 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:11:27 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:12:47 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:12:47 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:18:54 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:18:55 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:09 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:10 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:14 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:14 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:15 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:15 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 12:19:43 Europe/Prague] PHP Parse error:  syntax error, unexpected '[' in /home/web/gizd.cz/www/language/czech/lang_peers.php on line 9
+[08-Jan-2016 14:39:15 Europe/Prague] PHP Parse error:  syntax error, unexpected end of file in /home/web/gizd.cz/www/details.php on line 1092
+[08-Jan-2016 14:39:19 Europe/Prague] PHP Parse error:  syntax error, unexpected end of file in /home/web/gizd.cz/www/details.php on line 1092
+[08-Jan-2016 14:39:21 Europe/Prague] PHP Parse error:  syntax error, unexpected end of file in /home/web/gizd.cz/www/details.php on line 1092
+[08-Jan-2016 14:39:29 Europe/Prague] PHP Parse error:  syntax error, unexpected end of file in /home/web/gizd.cz/www/details.php on line 1092
+[08-Jan-2016 14:47:03 Europe/Prague] PHP Fatal error:  require_once(): Failed opening required '/lang_main.php' (include_path='.:/usr/local/share/yii/framework/') in /home/web/gizd.cz/www/imdb/imdb.php on line 70
+[08-Jan-2016 14:49:30 Europe/Prague] PHP Fatal error:  require_once(): Failed opening required '/lang_main.php' (include_path='.:/usr/local/share/yii/framework/') in /home/web/gizd.cz/www/imdb/imdb.php on line 70
+[08-Jan-2016 14:52:12 Europe/Prague] PHP Fatal error:  require_once(): Failed opening required '/lang_main.php' (include_path='.:/usr/local/share/yii/framework/') in /home/web/gizd.cz/www/imdb/imdb.php on line 70
+[08-Jan-2016 14:53:01 Europe/Prague] PHP Fatal error:  require_once(): Failed opening required '/lang_main.php' (include_path='.:/usr/local/share/yii/framework/') in /home/web/gizd.cz/www/imdb/imdb.php on line 70

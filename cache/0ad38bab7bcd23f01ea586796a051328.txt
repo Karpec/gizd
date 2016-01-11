@@ -1,0 +1,1 @@
+a:8:{s:13:"kocs_cfg_logs";b:1;s:17:"kocs_cfg_keycheck";b:1;s:12:"kocs_cfg_key";s:32:"08077a68b7bc66b899dabd2f90c84eeb";s:13:"kocs_bak_last";i:0;s:11:"kocs_bak_by";i:0;s:13:"kocs_res_last";i:0;s:11:"kocs_res_by";i:0;s:15:"kocs_res_errors";i:0;}
