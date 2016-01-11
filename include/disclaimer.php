@@ -36,10 +36,10 @@ $disclaimer="<TABLE border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=
 	  <TD valign=\"top\">
 <table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" align=\"center\">
   <tr>
-    <td width=\"100%\" height=\"26\">&nbsp;&nbsp;<b>Site Disclaimer</b></td>
+    <td width=\"100%\" height=\"26\">&nbsp;&nbsp;<b>Odmítnutí odpovědnosti</b></td>
   </tr></table>
 	<table border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" height=\"70\">
-   <tr><td class=\"lista\" align=\"center\" style=\"padding-left:20px; padding-right:20px;\"><center>None of the files shown here are actually hosted on the server of (".$SITENAME."). The links are provided solely by this site's users. The administrator of this site cannot be held responsible for what its users post, or any other actions of its users. You may not use this site to distribute or download any material when you do not have the legal rights to do so. It is your own responsibility to adhere to these terms. By registering on and/or using this website, it is assumed that <u>you</u>, as the user, have read, understood, and agreed to all the terms and conditions set forth by the site's owner.</center></td>
+   <tr><td class=\"lista\" align=\"center\" style=\"padding-left:20px; padding-right:20px;\"><center>Na serveru se nenalézají žádné soubory. Táto webová prezentace slouží pro  travení volného času s přáteli, pro výměnu zkušeností a poznatků z oblasti internetu. Systém na kterém běží prezentace je poskytován  jako nezjištná služba široké veřejnosti a proto za veškerý obsah šířený uživateli této webové prezentace i prostřednictvím tohoto informačního systému nenese provozovatel žádnou odpovědnost. Každý uživatel besttracker.cz je osobně odpovědný za zveřejňovaný obsah i za komentáře a postoje v pokecu nebo na foru. Upozorňujeme, že porušování autorských zákonu ve všech oblastech je trestné ! Jste zodpovědní za dodržování těchto pravidel a podmínek!</center></td>
     </tr>
   </table></TD>
 </TR></TABLE>"

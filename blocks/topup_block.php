@@ -44,9 +44,9 @@ global $TABLE_PREFIX,$btit_settings;
 
 <TABLE width=100% border=0 cellspacing=1 cellpadding=1 class=forumline>
 <TR>
-<TD class=row1>Med</TD>
-<TD class=row2>Nickname</TD>
-<TD class=row3>Tor</TD>
+<TD class=row1>Med.</TD>
+<TD class=row2>Uploader</TD>
+<TD class=row3>Torrentů</TD>
 </TR>
 <?php
 
@@ -97,7 +97,7 @@ echo"<TR align=left><TD>$upr</TD><TD><a href=index.php?page=userdetails&id=" . $
 }
 
 print("</td></tr></table>");
-print ("<br><center>Upload count last ".$btit_settings['UPD']." days</center>");
+print ("<br><center>Započítavají se torrenty za posledních ".$btit_settings['UPD']." dní</center>");
 
 }
 ?>

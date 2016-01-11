@@ -106,7 +106,7 @@ $rep="<img src='images/rep/reputation_highpos.gif' alt='" . $setrep["best_level"
 if ($row["reputation"] <= -101)
 $rep="<img src='images/rep/reputation_highneg.gif' alt='" . $setrep["worse_level"] . "' title='" . $setrep["worse_level"] . "' />";
 
-print("<tr><td align=\"center\">Reputation: ".$rep."</td></tr>\n");
+print("<tr><td align=\"center\">Reputace: ".$rep."</td></tr>\n");
 }
 // DT end reputation system
 

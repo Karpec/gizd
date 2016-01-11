@@ -40,11 +40,11 @@ else
 // all torrent block
 print("<form name=\"jump2\" action=\"index.php\" method=\"post\">\n");
 $tblock[0]["id"]="last";
-$tblock[0]["tblock"]="Last Torrents";
+$tblock[0]["tblock"]="Nejnovější torrenty";
 $tblock[1]["id"]="top";
-$tblock[1]["tblock"]="Top Torrents";
+$tblock[1]["tblock"]="Top torrenty";
 $tblock[2]["id"]="seed";
-$tblock[2]["tblock"]="Seed Wanted";
+$tblock[2]["tblock"]="Čekající na seed";
 // all torrent block end  
 
 // new porn system
@@ -118,7 +118,7 @@ if($CURUSER['tor']=='seed')
      $row = get_result($sql,true,$btit_settings['cache_duration']);
   ?>
   <tr>
-      <td align="center" width="20" class="header">&nbsp;<?php echo $language["DOWN"]; ?>&nbsp;</td>
+      <td align="center" width="20" class="header">&nbsp;<?php /* echo $language["DOWN"]; */?>DL&nbsp;</td>
       <td align="center" width="20" class="header">&nbsp;<?php echo $language["ADDB"]; ?>&nbsp;</td>
     <td align="center" width="55%" class="header">&nbsp;<?php echo $language["TORRENT_FILE"]; ?>&nbsp;</td>
     
@@ -267,9 +267,9 @@ if ($hover=="")
 // imdb mousehover image
 
 if ($GLOBALS["usepopup"])
-          echo "\n\t<td width=\"55%\" class=\"lista\" style=\"padding-left:10px;\"><a class=\"lasttor\" href=\"javascript:popdetails('index.php?page=torrent-details&amp;id=" . $data['hash'] . "');\" title=\"" . $language["VIEW_DETAILS"] . ": " . $data["filename"] . "\"onmouseover=\" return overlib('<center>".$filename."</center><center><img src=" .$tdt. $balon . "  width=200 border=0></center><center>Category: ".$data["cname"]." Size: " . makesize($data["size"]) . "</center><center>Added:" . get_elapsed_time($data["added"]) . " ago</center><center><font color = green>Seeders: " . $data["seeds"] . "<font color = red> Leechers: " .$data["leechers"] . "<font color = purple> Done: " . $data["finished"] . "</font></center>', CENTER);\" onmouseout=\"return nd();\">".$filename.$mult.$gold.$free.$vt.$sticky.$dl.$is_new.$team. "</a>".($data["external"]=="no"?"":" (<span style=\"color:red\">EXT</span>)")."</td>";
+          echo "\n\t<td width=\"55%\" class=\"lista\" style=\"padding-left:10px;\"><a class=\"lasttor\" href=\"javascript:popdetails('index.php?page=torrent-details&amp;id=" . $data['hash'] . "');\" title=\"" . $language["VIEW_DETAILS"] . ": " . $data["filename"] . "\"onmouseover=\" return overlib('<center>".$filename."</center><center><img src=" .$tdt. $balon . "  width=200 border=0></center><center>Kategorie: ".$data["cname"]." Velikost: " . makesize($data["size"]) . "</center><center>Přidáno: před" . get_elapsed_time($data["added"]) . "</center><center><font color = green>Seedů: " . $data["seeds"] . "<font color = red> Leechů: " .$data["leechers"] . "<font color = purple> Staženo: " . $data["finished"] . "</font></center>', CENTER);\" onmouseout=\"return nd();\">".$filename.$mult.$gold.$free.$vt.$sticky.$dl.$is_new.$team. "</a>".($data["external"]=="no"?"":" (<span style=\"color:red\">EXT</span>)")."</td>";
        else
-          echo "\n\t<td width=\"55%\" class=\"lista\" style=\"padding-left:10px;\"><a class=\"lasttor\" href=\"index.php?page=torrent-details&amp;id=" . $data['hash'] . "\" title=\"" . $language["VIEW_DETAILS"]. ": " . $data["filename"] . "\"onmouseover=\" return overlib('<center>".$filename."</center><center><img src=" .$tdt. $balon . "  width=200 border=0></center><center>Category: ".$data["cname"]." Size: " . makesize($data["size"]) . "</center><center>Added:" . get_elapsed_time($data["added"]) . " ago</center><center><font color = green>Seeders: " . $data["seeds"] . "<font color = red> Leechers: " .$data["leechers"] . "<font color = purple> Done: " . $data["finished"] . "</font></center> ', CENTER);\" onmouseout=\"return nd();\">".$filename.$mult.$gold.$free.$vt.$sticky.$dl.$is_new.$team. "</a>".($data["external"]=="no"?"":" (<span style=\"color:red\">EXT</span>)")."</td>";
+          echo "\n\t<td width=\"55%\" class=\"lista\" style=\"padding-left:10px;\"><a class=\"lasttor\" href=\"index.php?page=torrent-details&amp;id=" . $data['hash'] . "\" title=\"" . $language["VIEW_DETAILS"]. ": " . $data["filename"] . "\"onmouseover=\" return overlib('<center>".$filename."</center><center><img src=" .$tdt. $balon . "  width=200 border=0></center><center>Kategorie: ".$data["cname"]." Velikost: " . makesize($data["size"]) . "</center><center>Přidáno: před " . get_elapsed_time($data["added"]) . "</center><center><font color = green>Seedů: " . $data["seeds"] . "<font color = red> Leechů: " .$data["leechers"] . "<font color = purple> Staženo: " . $data["finished"] . "</font></center> ', CENTER);\" onmouseout=\"return nd();\">".$filename.$mult.$gold.$free.$vt.$sticky.$dl.$is_new.$team. "</a>".($data["external"]=="no"?"":" (<span style=\"color:red\">EXT</span>)")."</td>";
        echo "\n\t<td align=\"center\" class=\"lista\" width=\"45\" style=\"text-align: center;\"><a class=\"lasttor\" href=\"index.php?page=torrents&amp;category=$data[catid]\">" . image_or_link( ($data["image"] == "" ? "" : "$STYLEPATH/images/categories/" . $data["image"]), "", $data["cname"]) . "</a></td>";
 
 //waitingtime

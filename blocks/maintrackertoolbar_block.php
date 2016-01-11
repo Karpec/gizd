@@ -46,8 +46,8 @@ if($row["free"]=="no" AND $row["happy_hour"] =="no" )
 {
       $freec="steelblue";
       $till='';
-      $col='Free Leech';
-      $post=' Not Today';
+      $col='Volné stahování';
+      $post=' není aktivní';
       $img='';
 }
 else if ($row["happy"]=="no" AND $row["happy_hour"] =="yes" )
@@ -58,7 +58,7 @@ else if ($row["happy"]=="no" AND $row["happy_hour"] =="yes" )
       $freec="steelblue";
       $till='';
       $col='';
-      $post='Next Happy Hour Starts '.date("l jS F Y \a\\t g:i a",$happy2["timestampp"]-$offset);
+      $post='Další volné stahování začne '.date("l jS F Y \a\\t g:i a",$happy2["timestampp"]-$offset);
       $img='';
 }
 else if($row["happy"]=="yes")
@@ -236,23 +236,23 @@ else
 if ($rowuser["reputation"] == 0)
 {
 
-$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputation &nbsp;<img src='images/rep/reputation_balance.gif' border='0' alt='".$setrep["no_level"]."' title='".$setrep["no_level"]."' /></a>";
+$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputace &nbsp;<img src='images/rep/reputation_balance.gif' border='0' alt='".$setrep["no_level"]."' title='".$setrep["no_level"]."' /></a>";
 }
 if ($rowuser["reputation"] >= 1 )
 {
-$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputation &nbsp;<img src='images/rep/reputation_pos.gif' border='0' alt='".$setrep["good_level"]."' title='".$setrep["good_level"]."' /></a>";
+$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputace &nbsp;<img src='images/rep/reputation_pos.gif' border='0' alt='".$setrep["good_level"]."' title='".$setrep["good_level"]."' /></a>";
 }
 if ($rowuser["reputation"] <= -1)
 {
-$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputation &nbsp;<img src='images/rep/reputation_neg.gif'border='0' alt='".$setrep["bad_level"]."' title='".$setrep["bad_level"]."' /></a>";
+$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputace &nbsp;<img src='images/rep/reputation_neg.gif'border='0' alt='".$setrep["bad_level"]."' title='".$setrep["bad_level"]."' /></a>";
 }
 if ($rowuser["reputation"] >= 101 )
 {
-$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputation &nbsp;<img src='images/rep/reputation_highpos.gif' border='0' alt='".$setrep["best_level"]."' title='".$setrep["best_level"]."' /></a>";
+$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputace &nbsp;<img src='images/rep/reputation_highpos.gif' border='0' alt='".$setrep["best_level"]."' title='".$setrep["best_level"]."' /></a>";
 }
 if ($rowuser["reputation"] <= -101)
 {
-$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputation &nbsp;<img src='images/rep/reputation_highneg.gif'border='0' alt='".$setrep["worse_level"]."' title='".$setrep["worse_level"]."' /></a>";
+$rep="<a href=index.php?page=reputationpage  > &nbsp; &nbsp; Reputace &nbsp;<img src='images/rep/reputation_highneg.gif'border='0' alt='".$setrep["worse_level"]."' title='".$setrep["worse_level"]."' /></a>";
 }
 }
 // DT end reputation system

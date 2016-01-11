@@ -87,36 +87,36 @@ echo "<td width=22><a href=\"javascript:bbshout('[img]', '[/img]')\"><img src=im
 
 echo "<td>
 <select name='color' size=\"1\" onChange=\"javascript:bbcolor()\">
-<option selected='selected'>COLOR</option>
-<option value=skyblue style=color:skyblue>sky blue</option>
-<option value=royalblue style=color:royalblue>royal blue</option>
-<option value=blue style=color:blue>blue</option>
-<option value=darkblue style=color:darkblue>dark-blue</option>
-<option value=orange style=color:orange>orange</option>
-<option value=orangered style=color:orangered>orange-red</option>
-<option value=crimson style=color:crimson>crimson</option>
-<option value=red style=color:red>red</option>
-<option value=firebrick style=color:firebrick>firebrick</option>
-<option value=darkred style=color:darkred>dark red</option>
-<option value=green style=color:green>green</option>
-<option value=limegreen style=color:limegreen>limegreen</option>
-<option value=seagreen style=color:seagreen>sea-green</option>
-<option value=deeppink style=color:deeppink>deeppink</option>
-<option value=tomato style=color:tomato>tomato</option>
-<option value=coral style=color:coral>coral</option>
-<option value=purple style=color:purple>purple</option>
-<option value=indigo style=color:indigo>indigo</option>
-<option value=burlywood style=color:burlywood>burlywood</option>
-<option value=sandybrown style=color:sandybrown>sandy brown</option>
-<option value=sienna style=color:sienna>sienna</option>
-<option value=chocolate style=color:chocolate>chocolate</option>
-<option value=teal style=color:teal>teal</option>
-<option value=silver style=color:silver>silver</option>
+<option selected='selected'>Barva</option>
+<option value=skyblue style=color:skyblue>Světle modrá</option>
+<option value=royalblue style=color:royalblue>Královsky modrá</option>
+<option value=blue style=color:blue>Modrá</option>
+<option value=darkblue style=color:darkblue>Tmavě modrá</option>
+<option value=orange style=color:orange>Oranžová</option>
+<option value=orangered style=color:orangered>Oranžovo-červená</option>
+<option value=crimson style=color:crimson>Karmínová</option>
+<option value=red style=color:red>Červená</option>
+<option value=firebrick style=color:firebrick>Cihlová</option>
+<option value=darkred style=color:darkred>Tmavě červená</option>
+<option value=green style=color:green>Zelená</option>
+<option value=limegreen style=color:limegreen>Limetková</option>
+<option value=seagreen style=color:seagreen>Brčálová</option>
+<option value=deeppink style=color:deeppink>Žůžová</option>
+<option value=tomato style=color:tomato>Rajčatová</option>
+<option value=coral style=color:coral>Korálová</option>
+<option value=purple style=color:purple>Fialová</option>
+<option value=indigo style=color:indigo>Indigová</option>
+<option value=burlywood style=color:burlywood>Dřevěná</option>
+<option value=sandybrown style=color:sandybrown>Písečně hnědá</option>
+<option value=sienna style=color:sienna>Oranžově žlutá</option>
+<option value=chocolate style=color:chocolate>Čokoládová</option>
+<option value=teal style=color:teal>Pastelově zelená</option>
+<option value=silver style=color:silver>Střibrná</option>
 </select></td>";
 
 echo "<td>
 <select name='size' size=\"1\" onChange=\"javascript:bbsize()\">
-<option selected='selected'>Size</option>
+<option selected='selected'>Velikost</option>
 <option value=1>1</option>
 <option value=2>2</option>
 <option value=3>3</option>

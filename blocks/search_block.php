@@ -36,17 +36,17 @@
   <input type="hidden" name="page" value="torrents" />
 
       <td><input
-      onfocus="if (this.value == 'Torrents') this.value='';"
-   onblur="if(this.value == '') this.value='Torrents';"
-      type="text" name="search" size="15" maxlength="50" value="Torrents" /></td>
+      onfocus="if (this.value == 'Torrenty') this.value='';"
+   onblur="if(this.value == '') this.value='Torrenty';"
+      type="text" name="search" size="15" maxlength="50" value="Torrenty" /></td>
 </form>
 
   <form action="index.php" method="get" name="user_search">
-  <input type="hidden" name="page" value="users" />
+  <input type="hidden" name="page" value="Uživatelé" />
       <td><input
-      onfocus="if (this.value == 'Users') this.value='';"
-   	  onblur="if(this.value == '') this.value='Gebruikers';"
-      type="text" name="searchtext" size="15" maxlength="50" value="Users" /></td>
+      onfocus="if (this.value == 'Uživatelé') this.value='';"
+   	  onblur="if(this.value == '') this.value='Uživatelé';"
+      type="text" name="searchtext" size="15" maxlength="50" value="Uživatelé" /></td>
       <input type="hidden" name="level" value="0" />
   </form>
 
@@ -54,9 +54,9 @@
   <input type="hidden" name="page" value="forum" />
   <input type="hidden" name="action" value="search2" />
   <td><input
-   onfocus="if (this.value == 'Forums') this.value='';"
-   onblur="if(this.value == '') this.value='Forums';"
-  type="text" name="search" size="15" maxlength="50" value="Forums" /></td>
+   onfocus="if (this.value == 'Forum') this.value='';"
+   onblur="if(this.value == '') this.value='Forum';"
+  type="text" name="search" size="15" maxlength="50" value="Forum" /></td>
   </form>
 
 <form action="http://www.google.com/search" method="get" name="google_search">
