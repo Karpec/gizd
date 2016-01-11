@@ -44,7 +44,7 @@ function goToURL() {
 <form method="get" name="agreeform" onsubmit="goToURL('parent','index.php?page=account');return document.returnValue" >
 
   <input name="agreecheck" type="checkbox" onClick="agreesubmit(this)">
-  <b>Souhlasím s podmínky</b><br>
+  <b> Souhlasím s podmínkami</b><br>
   <input type="Submit" value="Pokračovat" disabled onClick="return defaultagree(this)">
 </form>
 

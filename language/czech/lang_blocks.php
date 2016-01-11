@@ -46,7 +46,7 @@ $language["BLOCK_WARN"]="Low Ratio Warnings";
 $language['Ticker']='Info and News';
 
 $language["BLOCK_BIRTHDAY"]="Dnešní narozeniny";
-$language["BLOCK_NO_BIRTHDAY"]="Dneska nikdo neoslavuje své narozeniny";
+$language["BLOCK_NO_BIRTHDAY"]="Dnes nikdo neoslavuje své narozeniny";
 $language['BLOCK_MAINTRACKERTOOLBAR']='Hlavní Panel trackeru';
 $language['BLOCK_MAINUSERTOOLBAR']='Hlavní Uživatelský Panel ';
 $language['WELCOME_LASTUSER']='Nový člen Besttrackeru';
